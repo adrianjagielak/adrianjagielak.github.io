@@ -1,0 +1,7301 @@
+{
+  "symbol": "MSFT",
+  "language": "en-US",
+  "region": "US",
+  "quoteType": "EQUITY",
+  "quoteSourceName": "Nasdaq Real Time Price",
+  "triggerable": true,
+  "currency": "USD",
+  "firstTradeDateMilliseconds": 511108200000,
+  "priceHint": 2,
+  "totalCash": 1.37949004E11,
+  "floatShares": 7449961518,
+  "ebitda": 68123000832,
+  "shortRatio": 1.34,
+  "preMarketChange": 0.39839172,
+  "preMarketChangePercent": 0.18605132,
+  "preMarketTime": 1608128930,
+  "targetPriceHigh": 260.0,
+  "targetPriceLow": 169.49,
+  "targetPriceMean": 239.37,
+  "targetPriceMedian": 245.0,
+  "preMarketPrice": 214.5284,
+  "heldPercentInsiders": 0.059,
+  "heldPercentInstitutions": 71.889,
+  "postMarketChangePercent": -0.027361164,
+  "postMarketTime": 1608166777,
+  "postMarketPrice": 219.22,
+  "postMarketChange": -0.05999756,
+  "regularMarketChange": 5.149994,
+  "regularMarketChangePercent": 2.4050782,
+  "regularMarketTime": 1608152402,
+  "regularMarketPrice": 219.28,
+  "regularMarketDayHigh": 220.11,
+  "regularMarketDayRange": "214.75 - 220.11",
+  "regularMarketDayLow": 214.75,
+  "regularMarketVolume": 32530648,
+  "sharesShort": 39002778,
+  "sharesShortPrevMonth": 36796420,
+  "shortPercentFloat": 0.52,
+  "regularMarketPreviousClose": 214.13,
+  "bid": 219.3,
+  "ask": 219.4,
+  "bidSize": 9,
+  "askSize": 9,
+  "exchange": "NMS",
+  "market": "us_market",
+  "messageBoardId": "finmb_21835",
+  "fullExchangeName": "NasdaqGS",
+  "shortName": "Microsoft Corporation",
+  "longName": "Microsoft Corporation",
+  "regularMarketOpen": 214.75,
+  "averageDailyVolume3Month": 29277323,
+  "averageDailyVolume10Day": 27693771,
+  "beta": 0.823097,
+  "fiftyTwoWeekLowChange": 86.759995,
+  "fiftyTwoWeekLowChangePercent": 0.65469354,
+  "fiftyTwoWeekRange": "132.52 - 232.86",
+  "fiftyTwoWeekHighChange": -13.580002,
+  "fiftyTwoWeekHighChangePercent": -0.05831831,
+  "fiftyTwoWeekLow": 132.52,
+  "fiftyTwoWeekHigh": 232.86,
+  "dividendDate": 1615420800,
+  "exDividendDate": 1613520000,
+  "earningsTimestamp": 1603815445,
+  "earningsTimestampStart": 1611781200,
+  "earningsTimestampEnd": 1612213200,
+  "trailingAnnualDividendRate": 2.09,
+  "trailingPE": 35.373447,
+  "pegRatio": 2.14,
+  "dividendsPerShare": 2.04,
+  "dividendRate": 2.24,
+  "trailingAnnualDividendYield": 0.009760425,
+  "dividendYield": 1.05,
+  "revenue": 1.47114E11,
+  "priceToSales": 11.269263,
+  "marketState": "POSTPOST",
+  "epsTrailingTwelveMonths": 6.199,
+  "epsForward": 7.47,
+  "epsCurrentYear": 6.76,
+  "epsNextQuarter": 1.59,
+  "priceEpsCurrentYear": 32.43787,
+  "priceEpsNextQuarter": 137.91194,
+  "sharesOutstanding": 7560500224,
+  "bookValue": 16.313,
+  "fiftyDayAverage": 213.15114,
+  "fiftyDayAverageChange": 6.1288605,
+  "fiftyDayAverageChangePercent": 0.02875359,
+  "twoHundredDayAverage": 208.64957,
+  "twoHundredDayAverageChange": 10.630432,
+  "twoHundredDayAverageChangePercent": 0.05094874,
+  "marketCap": 1657866420224,
+  "forwardPE": 29.354753,
+  "priceToBook": 13.44204,
+  "sourceInterval": 15,
+  "exchangeDataDelayedBy": 0,
+  "exchangeTimezoneName": "America/New_York",
+  "exchangeTimezoneShortName": "EST",
+  "pageViews": {
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "shortTermTrend": "DOWN"
+  },
+  "gmtOffSetMilliseconds": -18000000,
+  "esgPopulated": false,
+  "tradeable": false,
+  "components": [
+    "^NQDMXJPLMAUD",
+    "^NQUSBLM",
+    "^QIV",
+    "^NQDXUSMLTCGN",
+    "^NQUS500LCGN",
+    "^NQGMOIN",
+    "^NQGS",
+    "^NQNALMEURN",
+    "^NQUSB9000LMJPYN",
+    "^NQUSB9530LM",
+    "^NQUSBLMCAD",
+    "^NQUSB9000LMEURN",
+    "^DVGCADN",
+    "^NQDMXKRJPYN",
+    "^NQDMXKRLMAUDN",
+    "^NQUSB9537LMAUDN",
+    "^NQNA9000LMGBPN",
+    "^NQDMXJPLMAUDN",
+    "^NQDMXKRLMAUD",
+    "^NQFFUSHYN",
+    "^NQUSBLMJPY",
+    "^NDXCHF",
+    "^NQNA9000LMEUR",
+    "^NQNA9000LMCAD",
+    "^NQUSB9537LMN",
+    "^AZM",
+    "^NQGXGBLMN",
+    "^NQDMXKRLCJPY",
+    "^NQUSB9000LMEUR",
+    "^NQDXUSLCEUR",
+    "^NQDXUSLCG",
+    "^CAPEXA",
+    "^CPQ",
+    "^CPQNTR",
+    "^NQUSB9000LMCAD",
+    "^NQDM9000LMJPY",
+    "^NQG9000LMCADN",
+    "^NQDMXKRAUD",
+    "^NQDMXKRLMGBPN",
+    "^NQGXGBLMGBPN",
+    "^NQDM9000LMEURN",
+    "^NQGXJPLMJPYN",
+    "^NQNALMCADN",
+    "^NQUSBLMEUR",
+    "^NQG9000LMGBP",
+    "^NQUSB9537LM",
+    "^NQDM9000LMJPYN",
+    "^NQNALMJPY",
+    "^DAA",
+    "^MSH",
+    "^NDX",
+    "^NQGXGBLMJPY",
+    "^QCRD",
+    "^NQUSB9537LMGBPN",
+    "^IXCO",
+    "^NQGXJPLMJPY",
+    "^NQUSB9530LMCAD",
+    "^NQUSB9530LMGBPN",
+    "^NQDMXKR",
+    "^NQDMXGBLMCADN",
+    "^NQUSB9530LMEUR",
+    "^NQUSB9000LMJPY",
+    "^NQDMXKRLCN",
+    "^NQGXGBLMEURN",
+    "^NQGXJPLMCAD",
+    "^NQUSB9530LMN",
+    "^NQGXJPLMEUR",
+    "^XNDXNNRCHF",
+    "^DWARJFMU",
+    "^NQUSB9530LMGBP",
+    "^NQDMXJPLMGBPN",
+    "^NQDMXJPLMN",
+    "^NQDM9000LMAUD",
+    "^NQDMXKRLCJPYN",
+    "^NQDMXKRLMCADN",
+    "^NQDMXKRLCEUR",
+    "^NQUSB9000LMN",
+    "^NQDXUSLC",
+    "^NQGXGBLMJPYN",
+    "^NQG9000LMJPYN",
+    "^NQUSBLMEURN",
+    "^NQDMXKRJPY",
+    "^NQDMXKRLCCAD",
+    "^NQDMXKRLCEURN",
+    "^NQUSMLTCG",
+    "^NQG9000LMAUD",
+    "^NQGXJPLMGBPN",
+    "^QMI",
+    "^NQUSB9000LMCADN",
+    "^IXIC",
+    "^NQNALM",
+    "^NQUS500LC",
+    "^NQDMXGBLMJPY",
+    "^NQNALMAUD",
+    "^NQNA9000LMN",
+    "^NQVMVUS",
+    "^NQDXUSLCN",
+    "^NQGXGBLMAUD",
+    "^NQUSB9530LMJPYN",
+    "^NQUSBLMN",
+    "^NQDMXJPLMGBP",
+    "^NQUSB9537LMAUD",
+    "^NQDMXKRLMEUR",
+    "^NQUSB9537LMCADN",
+    "^MNX1",
+    "^NQNALMAUDN",
+    "^GMB",
+    "^NQG9000LMEURN",
+    "^CAPEXAN",
+    "^NQDM9000LMCADN",
+    "^NQFFUSHY",
+    "^NQDMXKRLMCAD",
+    "^NQDMXGBLM",
+    "^NQUSB9537LMGBP",
+    "^MSFSY",
+    "^NQNA9000LMGBP",
+    "^NQDMXGBLMJPYN",
+    "^NQG9000LMN",
+    "^NQDMXKRLMJPY",
+    "^NQUSBLMJPYN",
+    "^NQDM9000LMN",
+    "^NQDMXGBLMCAD",
+    "^XNDXNNRGBP",
+    "^XMI",
+    "^NQUSLG",
+    "^NQDMXGBLMEURN",
+    "^NQDMXKRGBPN",
+    "^NQDMXGBLMEUR",
+    "^XNDXNNR",
+    "^NQDMXKRAUDN",
+    "^NQDMXKRLMJPYN",
+    "^NQUSBLMCADN",
+    "^NQDMXGBLMN",
+    "^NQNALMGBPN",
+    "^NQGXGBLMCADN",
+    "^NQDMXKRLCCADN",
+    "^NQGXJPLMCADN",
+    "^NQGXJPLM",
+    "^NQNA9000LMAUD",
+    "^NQUSBLMGBP",
+    "^NQNALMN",
+    "^NQUSB9537LMJPYN",
+    "^NQUSB9000LMAUD",
+    "^NQUSLGN",
+    "^NQNA9000LM",
+    "^NQFFUSLV",
+    "^NQGXJPLMAUDN",
+    "^NQCAPST",
+    "^NQUSB9530LMEURN",
+    "^NQ96DIVUS",
+    "^NQUSB9530LMAUD",
+    "^DJI",
+    "^NQDMXKRLCGBP",
+    "^NQDMXKRLM",
+    "^NQDM9000LMGBP",
+    "^NQUSMLTCGN",
+    "^NQDMXKRLC",
+    "^NQNALMGBP",
+    "^NDXEUR",
+    "^NDXHKD",
+    "^NQDMXJPLMJPYN",
+    "^NQG9000LMEUR",
+    "^NQGXGBLM",
+    "^NQG9000LMCAD",
+    "^NQGMOI",
+    "^NQUSB9537LMEURN",
+    "^NQDMXKRN",
+    "^XQC",
+    "^NQCRDN",
+    "^NQDMXJPLMEURN",
+    "^NQG9000LMJPY",
+    "^NDXCAD",
+    "^NQDXUSMLTCG",
+    "^NQFFUSLVN",
+    "^NQNA9000LMJPYN",
+    "^NQDMXJPLM",
+    "^NQDMXKREUR",
+    "^NQGXJPLMGBP",
+    "^NQDM9000LMAUDN",
+    "^NQDMXKRLMEURN",
+    "^NQUSBLMAUD",
+    "^NQGXGBLMGBP",
+    "^NQDMXKRCAD",
+    "^NQNA9000LMEURN",
+    "^XQO",
+    "^DJA",
+    "^DAAXMLPREIT",
+    "^NQUSB9000LMAUDN",
+    "^NQUSB9000LMGBP",
+    "^NQDXUSLCEURN",
+    "^GMBNTR",
+    "^NQNA9000LMAUDN",
+    "^NQG9000LMAUDN",
+    "^NQDMXKRLCAUD",
+    "^XCQ",
+    "^NQNALMCAD",
+    "^NQUSB9530LMJPY",
+    "^XCI",
+    "^NQGXJPLMEURN",
+    "^NQDM9000LM",
+    "^NQDXUSLCGBP",
+    "^NQGXJPLMN",
+    "^NQNALMEUR",
+    "^NDXGBP",
+    "^NQGXGBLMEUR",
+    "^NQDMXKRGBP",
+    "^NQDM9000LMEUR",
+    "^XNDXNNRHKD",
+    "^NQDM9000LMCAD",
+    "^NQDMXGBLMGBPN",
+    "^XNDXNNREUR",
+    "^NQCRD",
+    "^NQDMXKRCADN",
+    "^NQGXGBLMCAD",
+    "^NQDMXGBLMGBP",
+    "^NQDMXKRLCAUDN",
+    "^NQUSB9537LMEUR",
+    "^XNDXNNRCAD",
+    "^NQDM9000LMGBPN",
+    "^NQDXUSLCGBPN",
+    "^NQG9000LM",
+    "^NQUSBLMGBPN",
+    "^NQDMXKRLMN",
+    "^NQUSB9530LMCADN",
+    "^NQGXJPLMAUD",
+    "^NQDMXGBLMAUDN",
+    "^NDXT",
+    "^NQUSB9000LM",
+    "^NQDMXJPLMJPY",
+    "^NQDMXKRLCGBPN",
+    "^NQDXUSLCGN",
+    "^NQVMVUSN",
+    "^NQUS500LCG",
+    "^NDXE",
+    "^NQDMXKREURN",
+    "^NQNALMJPYN",
+    "^NQUSB9537LMCAD",
+    "^NQUSB9000LMGBPN",
+    "^NQG9000LMGBPN",
+    "^NQDMXJPLMCADN",
+    "^NQDMXGBLMAUD",
+    "^NQUSB9530LMAUDN",
+    "^NQUSBLMAUDN",
+    "^NQNA9000LMJPY",
+    "^NQDMXJPLMCAD",
+    "^NQDMXJPLMEUR",
+    "^NQDMXKRLMGBP",
+    "^NQGXGBLMAUDN",
+    "^NQUS500LCN",
+    "^NQNA9000LMCADN",
+    "^NQUSB9537LMJPY"
+  ],
+  "quoteSummary": {
+    "recommendationTrend": {
+      "trend": [
+        {
+          "period": "0m",
+          "strongBuy": 14,
+          "buy": 13,
+          "hold": 6,
+          "sell": 0,
+          "strongSell": 1
+        },
+        {
+          "period": "-1m",
+          "strongBuy": 12,
+          "buy": 19,
+          "hold": 4,
+          "sell": 0,
+          "strongSell": 0
+        },
+        {
+          "period": "-2m",
+          "strongBuy": 12,
+          "buy": 19,
+          "hold": 4,
+          "sell": 0,
+          "strongSell": 0
+        },
+        {
+          "period": "-3m",
+          "strongBuy": 12,
+          "buy": 13,
+          "hold": 9,
+          "sell": 0,
+          "strongSell": 1
+        }
+      ],
+      "maxAge": 86400
+    },
+    "indexTrend": {
+      "maxAge": 1,
+      "symbol": "SP5",
+      "peRatio": 10.6259,
+      "pegRatio": 3.73487,
+      "estimates": [
+        {
+          "period": "0q",
+          "growth": -0.017
+        },
+        {
+          "period": "+1q",
+          "growth": 0.597
+        },
+        {
+          "period": "0y",
+          "growth": -0.093
+        },
+        {
+          "period": "+1y",
+          "growth": 0.22
+        },
+        {
+          "period": "+5y",
+          "growth": 0.0619739
+        },
+        {
+          "period": "-5y"
+        }
+      ]
+    },
+    "defaultKeyStatistics": {
+      "maxAge": 1,
+      "priceHint": 2,
+      "enterpriseValue": 1564195946496,
+      "forwardPE": 29.354753,
+      "profitMargins": 0.32285,
+      "floatShares": 7449961518,
+      "sharesOutstanding": 7560500224,
+      "sharesShort": 39002778,
+      "sharesShortPriorMonth": 36796420,
+      "sharesShortPreviousMonthDate": 1604016000,
+      "dateShortInterest": 1606694400,
+      "sharesPercentSharesOut": 0.0052,
+      "heldPercentInsiders": 5.9E-4,
+      "heldPercentInstitutions": 0.71889,
+      "shortRatio": 1.34,
+      "shortPercentOfFloat": 0.0052,
+      "beta": 0.823097,
+      "category": null,
+      "bookValue": 16.313,
+      "priceToBook": 13.44204,
+      "fundFamily": null,
+      "legalType": null,
+      "lastFiscalYearEnd": 1593475200,
+      "nextFiscalYearEnd": 1656547200,
+      "mostRecentQuarter": 1601424000,
+      "earningsQuarterlyGrowth": 0.301,
+      "netIncomeToCommon": 47495999488,
+      "trailingEps": 6.199,
+      "forwardEps": 7.47,
+      "pegRatio": 2.14,
+      "lastSplitFactor": "2:1",
+      "lastSplitDate": 1045526400,
+      "enterpriseToRevenue": 10.633,
+      "enterpriseToEbitda": 22.961,
+      "52WeekChange": 0.38712192,
+      "SandP52WeekChange": 0.15777445,
+      "lastDividendValue": 0.56,
+      "lastDividendDate": 1605657600
+    },
+    "industryTrend": {
+      "maxAge": 1,
+      "symbol": null,
+      "estimates": []
+    },
+    "financialsTemplate": {
+      "code": "N",
+      "maxAge": 1
+    },
+    "quoteType": {
+      "exchange": "NMS",
+      "quoteType": "EQUITY",
+      "symbol": "MSFT",
+      "underlyingSymbol": "MSFT",
+      "shortName": "Microsoft Corporation",
+      "longName": "Microsoft Corporation",
+      "firstTradeDateEpochUtc": 511108200,
+      "timeZoneFullName": "America/New_York",
+      "timeZoneShortName": "EST",
+      "uuid": "b004b3ec-de24-385e-b2c1-923f10d3fb62",
+      "messageBoardId": "finmb_21835",
+      "gmtOffSetMilliseconds": -18000000,
+      "maxAge": 1
+    },
+    "fundOwnership": {
+      "maxAge": 1,
+      "ownershipList": [
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Vanguard Total Stock Market Index Fund",
+          "pctHeld": {
+            "raw": 0.028099999,
+            "fmt": "2.81%"
+          },
+          "position": {
+            "raw": 212213603,
+            "fmt": "212.21M",
+            "longFmt": "212,213,603"
+          },
+          "value": {
+            "raw": 44634887118,
+            "fmt": "44.63B",
+            "longFmt": "44,634,887,118"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Vanguard 500 Index Fund",
+          "pctHeld": {
+            "raw": 0.020499999,
+            "fmt": "2.05%"
+          },
+          "position": {
+            "raw": 155244748,
+            "fmt": "155.24M",
+            "longFmt": "155,244,748"
+          },
+          "value": {
+            "raw": 32652627846,
+            "fmt": "32.65B",
+            "longFmt": "32,652,627,846"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1606694400,
+            "fmt": "2020-11-30"
+          },
+          "organization": "SPDR S&P 500 ETF Trust",
+          "pctHeld": {
+            "raw": 0.0108,
+            "fmt": "1.08%"
+          },
+          "position": {
+            "raw": 81501710,
+            "fmt": "81.5M",
+            "longFmt": "81,501,710"
+          },
+          "value": {
+            "raw": 17447071059,
+            "fmt": "17.45B",
+            "longFmt": "17,447,071,059"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1606694400,
+            "fmt": "2020-11-30"
+          },
+          "organization": "Invesco ETF Tr-Invesco QQQ Tr, Series 1 ETF",
+          "pctHeld": {
+            "raw": 0.0091,
+            "fmt": "0.91%"
+          },
+          "position": {
+            "raw": 68750082,
+            "fmt": "68.75M",
+            "longFmt": "68,750,082"
+          },
+          "value": {
+            "raw": 14717330053,
+            "fmt": "14.72B",
+            "longFmt": "14,717,330,053"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Fidelity 500 Index Fund",
+          "pctHeld": {
+            "raw": 0.009,
+            "fmt": "0.90%"
+          },
+          "position": {
+            "raw": 68197967,
+            "fmt": "68.2M",
+            "longFmt": "68,197,967"
+          },
+          "value": {
+            "raw": 14344078399,
+            "fmt": "14.34B",
+            "longFmt": "14,344,078,399"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Vanguard Institutional Index Fund-Institutional Index Fund",
+          "pctHeld": {
+            "raw": 0.0086,
+            "fmt": "0.86%"
+          },
+          "position": {
+            "raw": 64948753,
+            "fmt": "64.95M",
+            "longFmt": "64,948,753"
+          },
+          "value": {
+            "raw": 13660671218,
+            "fmt": "13.66B",
+            "longFmt": "13,660,671,218"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Vanguard Growth Index Fund",
+          "pctHeld": {
+            "raw": 0.007900001,
+            "fmt": "0.79%"
+          },
+          "position": {
+            "raw": 59952438,
+            "fmt": "59.95M",
+            "longFmt": "59,952,438"
+          },
+          "value": {
+            "raw": 12609796284,
+            "fmt": "12.61B",
+            "longFmt": "12,609,796,284"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1606694400,
+            "fmt": "2020-11-30"
+          },
+          "organization": "iShares Core S&P 500 ETF",
+          "pctHeld": {
+            "raw": 0.0078,
+            "fmt": "0.78%"
+          },
+          "position": {
+            "raw": 59107487,
+            "fmt": "59.11M",
+            "longFmt": "59,107,487"
+          },
+          "value": {
+            "raw": 12653139742,
+            "fmt": "12.65B",
+            "longFmt": "12,653,139,742"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Growth Fund Of America Inc",
+          "pctHeld": {
+            "raw": 0.0070999996,
+            "fmt": "0.71%"
+          },
+          "position": {
+            "raw": 53569352,
+            "fmt": "53.57M",
+            "longFmt": "53,569,352"
+          },
+          "value": {
+            "raw": 11267241806,
+            "fmt": "11.27B",
+            "longFmt": "11,267,241,806"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Washington Mutual Investors Fund",
+          "pctHeld": {
+            "raw": 0.0046,
+            "fmt": "0.46%"
+          },
+          "position": {
+            "raw": 35049830,
+            "fmt": "35.05M",
+            "longFmt": "35,049,830"
+          },
+          "value": {
+            "raw": 7372030743,
+            "fmt": "7.37B",
+            "longFmt": "7,372,030,743"
+          }
+        }
+      ]
+    },
+    "summaryDetail": {
+      "maxAge": 1,
+      "priceHint": 2,
+      "previousClose": 214.13,
+      "open": 214.75,
+      "dayLow": 214.75,
+      "dayHigh": 220.11,
+      "regularMarketPreviousClose": 214.13,
+      "regularMarketOpen": 214.75,
+      "regularMarketDayLow": 214.75,
+      "regularMarketDayHigh": 220.11,
+      "dividendRate": 2.24,
+      "dividendYield": 0.0105,
+      "exDividendDate": 1613520000,
+      "payoutRatio": 0.32900003,
+      "fiveYearAvgDividendYield": 1.76,
+      "beta": 0.823097,
+      "trailingPE": 35.373447,
+      "forwardPE": 29.354753,
+      "volume": 32530648,
+      "regularMarketVolume": 32530648,
+      "averageVolume": 29277323,
+      "averageVolume10days": 27693771,
+      "averageDailyVolume10Day": 27693771,
+      "bid": 219.3,
+      "ask": 219.4,
+      "bidSize": 900,
+      "askSize": 900,
+      "marketCap": 1657866420224,
+      "fiftyTwoWeekLow": 132.52,
+      "fiftyTwoWeekHigh": 232.86,
+      "priceToSalesTrailing12Months": 11.269263,
+      "fiftyDayAverage": 213.15114,
+      "twoHundredDayAverage": 208.64957,
+      "trailingAnnualDividendRate": 2.09,
+      "trailingAnnualDividendYield": 0.009760425,
+      "currency": "USD",
+      "fromCurrency": null,
+      "toCurrency": null,
+      "lastMarket": null,
+      "algorithm": null,
+      "tradeable": false
+    },
+    "insiderHolders": {
+      "holders": [
+        {
+          "maxAge": 1,
+          "name": "HOGAN KATHLEEN T",
+          "relation": "Officer",
+          "url": "",
+          "transactionDescription": "Sale",
+          "latestTransDate": {
+            "raw": 1607472000,
+            "fmt": "2020-12-09"
+          },
+          "positionDirect": {
+            "raw": 189064,
+            "fmt": "189.06k",
+            "longFmt": "189,064"
+          },
+          "positionDirectDate": {
+            "raw": 1607472000,
+            "fmt": "2020-12-09"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "JOHNSTON HUGH F.",
+          "relation": "Director",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "positionDirect": {
+            "raw": 5332,
+            "fmt": "5.33k",
+            "longFmt": "5,332"
+          },
+          "positionDirectDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "NADELLA SATYA",
+          "relation": "Chief Executive Officer",
+          "url": "",
+          "transactionDescription": "Sale",
+          "latestTransDate": {
+            "raw": 1604534400,
+            "fmt": "2020-11-05"
+          },
+          "positionIndirect": {
+            "raw": 1392570,
+            "fmt": "1.39M",
+            "longFmt": "1,392,570"
+          },
+          "positionIndirectDate": {
+            "raw": 1604534400,
+            "fmt": "2020-11-05"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "SCHARF CHARLES W",
+          "relation": "Director",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "positionDirect": {
+            "raw": 41832,
+            "fmt": "41.83k",
+            "longFmt": "41,832"
+          },
+          "positionDirectDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "SMITH BRADFORD LEE",
+          "relation": "President",
+          "url": "",
+          "transactionDescription": "Sale",
+          "latestTransDate": {
+            "raw": 1604534400,
+            "fmt": "2020-11-05"
+          },
+          "positionDirect": {
+            "raw": 713482,
+            "fmt": "713.48k",
+            "longFmt": "713,482"
+          },
+          "positionDirectDate": {
+            "raw": 1604534400,
+            "fmt": "2020-11-05"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "SORENSON ARNE M",
+          "relation": "Director",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "positionDirect": {
+            "raw": 4557,
+            "fmt": "4.56k",
+            "longFmt": "4,557"
+          },
+          "positionDirectDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "STANTON JOHN",
+          "relation": "Director",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "positionDirect": {
+            "raw": 82563,
+            "fmt": "82.56k",
+            "longFmt": "82,563"
+          },
+          "positionDirectDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "WALMSLEY EMMA NATASHA",
+          "relation": "Director",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "positionDirect": {
+            "raw": 575,
+            "fmt": "575",
+            "longFmt": "575"
+          },
+          "positionDirectDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "WARRIOR PADMASREE",
+          "relation": "Director",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "positionDirect": {
+            "raw": 11462,
+            "fmt": "11.46k",
+            "longFmt": "11,462"
+          },
+          "positionDirectDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          }
+        },
+        {
+          "maxAge": 1,
+          "name": "YOUNG CHRISTOPHER DAVID",
+          "relation": "Officer",
+          "url": "",
+          "transactionDescription": "Stock Award(Grant)",
+          "latestTransDate": {
+            "raw": 1605052800,
+            "fmt": "2020-11-11"
+          },
+          "positionDirect": {
+            "raw": 101940,
+            "fmt": "101.94k",
+            "longFmt": "101,940"
+          },
+          "positionDirectDate": {
+            "raw": 1605052800,
+            "fmt": "2020-11-11"
+          }
+        }
+      ],
+      "maxAge": 1
+    },
+    "calendarEvents": {
+      "maxAge": 1,
+      "earnings": {
+        "earningsDate": [
+          1611705600,
+          1612137600
+        ],
+        "earningsAverage": 1.64,
+        "earningsLow": 1.57,
+        "earningsHigh": 1.86,
+        "revenueAverage": 40202900000,
+        "revenueLow": 39888000000,
+        "revenueHigh": 41145000000
+      },
+      "exDividendDate": 1613520000,
+      "dividendDate": 1615420800
+    },
+    "upgradeDowngradeHistory": {
+      "history": [
+        {
+          "epochGradeDate": 1606216671,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1604573317,
+          "firm": "Oppenheimer",
+          "toGrade": "Outperform",
+          "fromGrade": "Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1603987220,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1603891376,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1603886417,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1603875724,
+          "firm": "Piper Sandler",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1603470389,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1603211109,
+          "firm": "Stifel",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1602672563,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1602607200,
+          "firm": "RBC Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1599652911,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1595509572,
+          "firm": "Oppenheimer",
+          "toGrade": "Perform",
+          "fromGrade": "Outperform",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1595493784,
+          "firm": "Piper Sandler",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1595256482,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1595253049,
+          "firm": "Jefferies",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1595245180,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1594298350,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1594290664,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1593007087,
+          "firm": "Goldman Sachs",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1593005412,
+          "firm": "Argus Research",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1589809546,
+          "firm": "RBC Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "reit"
+        },
+        {
+          "epochGradeDate": 1588261640,
+          "firm": "Wells Fargo",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588256475,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588254134,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588252542,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588250959,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588249424,
+          "firm": "Mizuho",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588244489,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1588077697,
+          "firm": "Jefferies",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1587737865,
+          "firm": "RBC Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1587476623,
+          "firm": "Mizuho",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1585916243,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1585674695,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1585650602,
+          "firm": "Piper Sandler",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1585163195,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1584459060,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580755161,
+          "firm": "CFRA",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580485276,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580404155,
+          "firm": "Oppenheimer",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580397999,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580397256,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580392284,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580391358,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580389929,
+          "firm": "Wells Fargo",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580389005,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580388958,
+          "firm": "Piper Sandler",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580388035,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580385597,
+          "firm": "Stifel",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580385211,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580385390,
+          "firm": "RBC Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580384795,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1580384679,
+          "firm": "Mizuho",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1579788694,
+          "firm": "Piper Sandler",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1579612446,
+          "firm": "RBC Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1579179449,
+          "firm": "Wells Fargo",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1578919947,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1578662045,
+          "firm": "Jefferies",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1578575347,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1578575174,
+          "firm": "Cowen & Co.",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1578495274,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1576591207,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1576589233,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1572273412,
+          "firm": "Mizuho",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1571922592,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1571921776,
+          "firm": "Stifel",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1571921694,
+          "firm": "Citi",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1571921518,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1571919753,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1571918294,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1570530614,
+          "firm": "Jefferies",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1563542946,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563540611,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563539861,
+          "firm": "Canaccord Genuity",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563537503,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563536585,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563536307,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563533572,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1563530744,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1562933686,
+          "firm": "Wells Fargo",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1562844627,
+          "firm": "Cowen & Co.",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1561473100,
+          "firm": "Jefferies",
+          "toGrade": "Underperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1560952537,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556207419,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "Strong Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556205301,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556203999,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "Outperform",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556202757,
+          "firm": "Bank of America",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556201067,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556199976,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556198739,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556197279,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556194749,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1556194051,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "Outperform",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1555505019,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1555071052,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1552559893,
+          "firm": "Mizuho",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1548938333,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1540479549,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "Neutral",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1540478326,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1540474736,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1539958606,
+          "firm": "Wedbush",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1539346523,
+          "firm": "Macquarie",
+          "toGrade": "Outperform",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1536319235,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532348364,
+          "firm": "Argus",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532105707,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532092381,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "Outperform",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532091919,
+          "firm": "Wells Fargo",
+          "toGrade": "Outperform",
+          "fromGrade": "Outperform",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532090431,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "Outperform",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532087074,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "Neutral",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532086084,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1532085639,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1531839970,
+          "firm": "Bank of America",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1531831623,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "Strong Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1531830344,
+          "firm": "PiperJaffray",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1528286583,
+          "firm": "Argus",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1525090829,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "Neutral",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1524836741,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1524832957,
+          "firm": "JP Morgan",
+          "toGrade": "Overweight",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1524831212,
+          "firm": "Canaccord Genuity",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1524830117,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1522090937,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517581671,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517578480,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517506630,
+          "firm": "Canaccord Genuity",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517498487,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "Outperform",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517497089,
+          "firm": "Bank of America",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517494106,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "Buy",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1517483221,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1516899612,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Overweight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1516892143,
+          "firm": "JP Morgan",
+          "toGrade": "Neutral",
+          "fromGrade": "Neutral",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1516794928,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1510238434,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509466780,
+          "firm": "Oppenheimer",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509463377,
+          "firm": "Argus",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1509385618,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509128546,
+          "firm": "Canaccord Genuity",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509124909,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509120674,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509109208,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1509107042,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1507204663,
+          "firm": "Canaccord Genuity",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1504718875,
+          "firm": "Moffett Nathanson",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1500657375,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1500652287,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1500308729,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1498139990,
+          "firm": "Cleveland Research",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1493322208,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1485194075,
+          "firm": "Tigress Financial",
+          "toGrade": "Buy",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1484148889,
+          "firm": "Wells Fargo",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1482412120,
+          "firm": "PiperJaffray",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1479373419,
+          "firm": "Goldman Sachs",
+          "toGrade": "Buy",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1478788585,
+          "firm": "Atlantic Equities",
+          "toGrade": "Neutral",
+          "fromGrade": "Underweight",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1477053109,
+          "firm": "William Blair",
+          "toGrade": "Outperform",
+          "fromGrade": "Market Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1476671041,
+          "firm": "Goldman Sachs",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1472459583,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1469049639,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1468996997,
+          "firm": "Wunderlich",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1468915863,
+          "firm": "William Blair",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1467895384,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1464080172,
+          "firm": "Cowen & Co.",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1464070791,
+          "firm": "Cowen & Co.",
+          "toGrade": "Outperform",
+          "fromGrade": "Market Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1463379992,
+          "firm": "Canaccord Genuity",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1461651639,
+          "firm": "Macquarie",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1461315335,
+          "firm": "Macquarie",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1461312506,
+          "firm": "RBC Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1461311026,
+          "firm": "Cowen & Co.",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1461308482,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1461304674,
+          "firm": "Goldman Sachs",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1461058246,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1459496144,
+          "firm": "Cowen & Co.",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1459492532,
+          "firm": "Cowen & Co.",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1457073035,
+          "firm": "Macquarie",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1454320435,
+          "firm": "Hilliard Lyons",
+          "toGrade": "Neutral",
+          "fromGrade": "Long-Term Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1454054768,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1452665801,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "Equal-Weight",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1452232794,
+          "firm": "BMO Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1452058518,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1450423192,
+          "firm": "Goldman Sachs",
+          "toGrade": "Neutral",
+          "fromGrade": "Sell",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1450260069,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1448869471,
+          "firm": "Raymond James",
+          "toGrade": "Strong Buy",
+          "fromGrade": "Market Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1447163727,
+          "firm": "PiperJaffray",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1445607530,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1445605280,
+          "firm": "Jefferies",
+          "toGrade": "Underweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1445590601,
+          "firm": "Bank of America",
+          "toGrade": "Buy",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1443681872,
+          "firm": "Bank of America",
+          "toGrade": "Neutral",
+          "fromGrade": "Underperform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1439449166,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1437562800,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1437549956,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1436439600,
+          "firm": "Jefferies",
+          "toGrade": "Underperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1436328198,
+          "firm": "Morgan Stanley",
+          "toGrade": "Equal-Weight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1434611947,
+          "firm": "Jefferies",
+          "toGrade": "Underperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1433834690,
+          "firm": "Wunderlich",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1433322000,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1431498141,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1430384400,
+          "firm": "KeyBanc",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1430125200,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1429866000,
+          "firm": "Pacific Crest",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1429864319,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1429088400,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1428656400,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1428299864,
+          "firm": "Wells Fargo",
+          "toGrade": "Outperform",
+          "fromGrade": "Market Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1426237200,
+          "firm": "Pacific Crest",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1422511040,
+          "firm": "Atlantic Equities",
+          "toGrade": "Underweight",
+          "fromGrade": "Neutral",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1422435600,
+          "firm": "Citigroup",
+          "toGrade": "Sell",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1422349200,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1422343513,
+          "firm": "Nomura",
+          "toGrade": "Neutral",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1422339101,
+          "firm": "JP Morgan",
+          "toGrade": "Neutral",
+          "fromGrade": "Overweight",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1420534800,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1418688000,
+          "firm": "Bank of America",
+          "toGrade": "Underperform",
+          "fromGrade": "Neutral",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1418342400,
+          "firm": "PiperJaffray",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1416591070,
+          "firm": "Jefferies",
+          "toGrade": "Underperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1416301200,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1414141200,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1414139400,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1412845200,
+          "firm": "BMO Capital",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1412235974,
+          "firm": "FBN Securities",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1410336000,
+          "firm": "MKM Partners",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1409821200,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1406155018,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1406153029,
+          "firm": "FBR Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1406151967,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1406103346,
+          "firm": "Bank of America",
+          "toGrade": "Neutral",
+          "fromGrade": "Underperform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1406096434,
+          "firm": "Pacific Crest",
+          "toGrade": "Outperform",
+          "fromGrade": "Sector Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1405721129,
+          "firm": "Deutsche Bank",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1405715608,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1405454019,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1402601895,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1401948938,
+          "firm": "FBR Capital",
+          "toGrade": "Outperform",
+          "fromGrade": "Market Perform",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1401453622,
+          "firm": "Summit Research Partners",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1398409843,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1398393351,
+          "firm": "Oppenheimer",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1398390835,
+          "firm": "JP Morgan",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1398386470,
+          "firm": "FBR Capital",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1398126134,
+          "firm": "Jefferies",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1397463554,
+          "firm": "Deutsche Bank",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1395252203,
+          "firm": "Cowen & Co.",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1395183483,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1525528837,
+          "firm": "B. Riley FBR",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1391529600,
+          "firm": "Sterne Agee",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1390550400,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1390548101,
+          "firm": "Credit Suisse",
+          "toGrade": "Outperform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1390492800,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1389715200,
+          "firm": "Citigroup",
+          "toGrade": "Neutral",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1389342600,
+          "firm": "Barclays",
+          "toGrade": "Overweight",
+          "fromGrade": "Equal-weight",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1385548643,
+          "firm": "Evercore Partners",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1384842452,
+          "firm": "McAdams Wright Ragen",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1384755060,
+          "firm": "Bank of America",
+          "toGrade": "Underperform",
+          "fromGrade": "Neutral",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1383724827,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1381818293,
+          "firm": "Jefferies",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1378277478,
+          "firm": "Morgan Stanley",
+          "toGrade": "Equal-Weight",
+          "fromGrade": "Overweight",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1377503619,
+          "firm": "BMO Capital",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1377157958,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "Neutral",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1376378158,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1375946799,
+          "firm": "Evercore Partners",
+          "toGrade": "Overweight",
+          "fromGrade": "Equal-Weight",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1375086270,
+          "firm": "Atlantic Equities",
+          "toGrade": "Neutral",
+          "fromGrade": "Overweight",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1374215857,
+          "firm": "Cowen & Co.",
+          "toGrade": "Market Perform",
+          "fromGrade": "Outperform",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1372230102,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1370423079,
+          "firm": "Deutsche Bank",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1369727715,
+          "firm": "Nomura",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1368606271,
+          "firm": "Stifel Nicolaus",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1367316024,
+          "firm": "Standpoint Research",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1367303278,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "Equal-Weight",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1366905486,
+          "firm": "McAdams Wright Ragen",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1365752877,
+          "firm": "Credit Agricole",
+          "toGrade": "Outperform",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1365671340,
+          "firm": "Hilliard Lyons",
+          "toGrade": "Neutral",
+          "fromGrade": "Long-term Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1365668082,
+          "firm": "Nomura",
+          "toGrade": "Neutral",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1365660098,
+          "firm": "Goldman Sachs",
+          "toGrade": "Sell",
+          "fromGrade": "Neutral",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1365593306,
+          "firm": "BGC Financial",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1365056359,
+          "firm": "Bank of America",
+          "toGrade": "Neutral",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1359992296,
+          "firm": "McAdams Wright Ragen",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1359101017,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1358495657,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1357890979,
+          "firm": "Nomura",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1357800444,
+          "firm": "Morgan Stanley",
+          "toGrade": "Equal-Weight",
+          "fromGrade": "Overweight",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1357565639,
+          "firm": "Barclays",
+          "toGrade": "Equal-Weight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1525527135,
+          "firm": "Argus",
+          "toGrade": "Hold",
+          "fromGrade": "Buy",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1355481186,
+          "firm": "SunTrust Robinson Humphrey",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1355471630,
+          "firm": "BMO Capital",
+          "toGrade": "Market Perform",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1355401064,
+          "firm": "Barclays",
+          "toGrade": "Equal-Weight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1355303833,
+          "firm": "Standpoint Research",
+          "toGrade": "Buy",
+          "fromGrade": "Hold",
+          "action": "up"
+        },
+        {
+          "epochGradeDate": 1354716034,
+          "firm": "MKM Partners",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1354089000,
+          "firm": "Nomura",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1350648600,
+          "firm": "Barclays",
+          "toGrade": "Equal-Weight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1349083980,
+          "firm": "RBC Capital",
+          "toGrade": "Sector Perform",
+          "fromGrade": "Outperform",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1349082660,
+          "firm": "RBC Capital",
+          "toGrade": "Sector Perform",
+          "fromGrade": "Outperform",
+          "action": "down"
+        },
+        {
+          "epochGradeDate": 1347465660,
+          "firm": "Jefferies",
+          "toGrade": "Hold",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1345454040,
+          "firm": "Longbow Research",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1342772640,
+          "firm": "Griffin Securities",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "init"
+        },
+        {
+          "epochGradeDate": 1342766580,
+          "firm": "Goldman Sachs",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1334924880,
+          "firm": "McAdams Wright Ragen",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1334922660,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1334905500,
+          "firm": "Bank oferica",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1334904240,
+          "firm": "Goldman Sachs",
+          "toGrade": "Neutral",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1334902680,
+          "firm": "Deutsche Bank",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1333453980,
+          "firm": "UBS",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1332399780,
+          "firm": "Morgan Stanley",
+          "toGrade": "Overweight",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1332165600,
+          "firm": "Hilliard Lyons",
+          "toGrade": "Long-Term Buy",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "epochGradeDate": 1331885940,
+          "firm": "Argus Research",
+          "toGrade": "Buy",
+          "fromGrade": "",
+          "action": "up"
+        }
+      ],
+      "maxAge": 86400
+    },
+    "price": {
+      "maxAge": 1,
+      "preMarketChangePercent": 0.0018605132,
+      "preMarketChange": 0.39839172,
+      "preMarketTime": 1608128930,
+      "preMarketPrice": 214.5284,
+      "preMarketSource": "DELAYED",
+      "postMarketChangePercent": -2.7361163E-4,
+      "postMarketChange": -0.05999756,
+      "postMarketTime": 1608166777,
+      "postMarketPrice": 219.22,
+      "postMarketSource": "FREE_REALTIME",
+      "regularMarketChangePercent": 0.024050782,
+      "regularMarketChange": 5.149994,
+      "regularMarketTime": 1608152402,
+      "priceHint": 2,
+      "regularMarketPrice": 219.28,
+      "regularMarketDayHigh": 220.11,
+      "regularMarketDayLow": 214.75,
+      "regularMarketVolume": 32530648,
+      "averageDailyVolume10Day": 27693771,
+      "averageDailyVolume3Month": 29277323,
+      "regularMarketPreviousClose": 214.13,
+      "regularMarketSource": "FREE_REALTIME",
+      "regularMarketOpen": 214.75,
+      "exchange": "NMS",
+      "exchangeName": "NasdaqGS",
+      "exchangeDataDelayedBy": 0,
+      "marketState": "POSTPOST",
+      "quoteType": "EQUITY",
+      "symbol": "MSFT",
+      "underlyingSymbol": null,
+      "shortName": "Microsoft Corporation",
+      "longName": "Microsoft Corporation",
+      "currency": "USD",
+      "quoteSourceName": "Nasdaq Real Time Price",
+      "currencySymbol": "$",
+      "fromCurrency": null,
+      "toCurrency": null,
+      "lastMarket": null,
+      "marketCap": 1657866420224
+    },
+    "earningsTrend": {
+      "trend": [
+        {
+          "maxAge": 1,
+          "period": "0q",
+          "endDate": "2020-12-31",
+          "growth": {
+            "raw": 0.086,
+            "fmt": "8.60%"
+          },
+          "earningsEstimate": {
+            "avg": {
+              "raw": 1.64,
+              "fmt": "1.64"
+            },
+            "low": {
+              "raw": 1.57,
+              "fmt": "1.57"
+            },
+            "high": {
+              "raw": 1.86,
+              "fmt": "1.86"
+            },
+            "yearAgoEps": {
+              "raw": 1.51,
+              "fmt": "1.51"
+            },
+            "numberOfAnalysts": {
+              "raw": 26,
+              "fmt": "26",
+              "longFmt": "26"
+            },
+            "growth": {
+              "raw": 0.086,
+              "fmt": "8.60%"
+            }
+          },
+          "revenueEstimate": {
+            "avg": {
+              "raw": 40202900000,
+              "fmt": "40.2B",
+              "longFmt": "40,202,900,000"
+            },
+            "low": {
+              "raw": 39888000000,
+              "fmt": "39.89B",
+              "longFmt": "39,888,000,000"
+            },
+            "high": {
+              "raw": 41145000000,
+              "fmt": "41.15B",
+              "longFmt": "41,145,000,000"
+            },
+            "numberOfAnalysts": {
+              "raw": 24,
+              "fmt": "24",
+              "longFmt": "24"
+            },
+            "yearAgoRevenue": {
+              "raw": 36906000000,
+              "fmt": "36.91B",
+              "longFmt": "36,906,000,000"
+            },
+            "growth": {
+              "raw": 0.088999994,
+              "fmt": "8.90%"
+            }
+          },
+          "epsTrend": {
+            "current": {
+              "raw": 1.64,
+              "fmt": "1.64"
+            },
+            "7daysAgo": {
+              "raw": 1.64,
+              "fmt": "1.64"
+            },
+            "30daysAgo": {
+              "raw": 1.64,
+              "fmt": "1.64"
+            },
+            "60daysAgo": {
+              "raw": 1.6,
+              "fmt": "1.6"
+            },
+            "90daysAgo": {
+              "raw": 1.61,
+              "fmt": "1.61"
+            }
+          },
+          "epsRevisions": {
+            "upLast7days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "upLast30days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "downLast30days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "downLast90days": {}
+          }
+        },
+        {
+          "maxAge": 1,
+          "period": "+1q",
+          "endDate": "2021-03-31",
+          "growth": {
+            "raw": 0.136,
+            "fmt": "13.60%"
+          },
+          "earningsEstimate": {
+            "avg": {
+              "raw": 1.59,
+              "fmt": "1.59"
+            },
+            "low": {
+              "raw": 1.48,
+              "fmt": "1.48"
+            },
+            "high": {
+              "raw": 1.75,
+              "fmt": "1.75"
+            },
+            "yearAgoEps": {
+              "raw": 1.4,
+              "fmt": "1.4"
+            },
+            "numberOfAnalysts": {
+              "raw": 26,
+              "fmt": "26",
+              "longFmt": "26"
+            },
+            "growth": {
+              "raw": 0.136,
+              "fmt": "13.60%"
+            }
+          },
+          "revenueEstimate": {
+            "avg": {
+              "raw": 38721000000,
+              "fmt": "38.72B",
+              "longFmt": "38,721,000,000"
+            },
+            "low": {
+              "raw": 37142700000,
+              "fmt": "37.14B",
+              "longFmt": "37,142,700,000"
+            },
+            "high": {
+              "raw": 39813000000,
+              "fmt": "39.81B",
+              "longFmt": "39,813,000,000"
+            },
+            "numberOfAnalysts": {
+              "raw": 24,
+              "fmt": "24",
+              "longFmt": "24"
+            },
+            "yearAgoRevenue": {
+              "raw": 35021000000,
+              "fmt": "35.02B",
+              "longFmt": "35,021,000,000"
+            },
+            "growth": {
+              "raw": 0.106000006,
+              "fmt": "10.60%"
+            }
+          },
+          "epsTrend": {
+            "current": {
+              "raw": 1.59,
+              "fmt": "1.59"
+            },
+            "7daysAgo": {
+              "raw": 1.59,
+              "fmt": "1.59"
+            },
+            "30daysAgo": {
+              "raw": 1.59,
+              "fmt": "1.59"
+            },
+            "60daysAgo": {
+              "raw": 1.58,
+              "fmt": "1.58"
+            },
+            "90daysAgo": {
+              "raw": 1.59,
+              "fmt": "1.59"
+            }
+          },
+          "epsRevisions": {
+            "upLast7days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "upLast30days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "downLast30days": {
+              "raw": 1,
+              "fmt": "1",
+              "longFmt": "1"
+            },
+            "downLast90days": {}
+          }
+        },
+        {
+          "maxAge": 1,
+          "period": "0y",
+          "endDate": "2021-06-30",
+          "growth": {
+            "raw": 0.174,
+            "fmt": "17.40%"
+          },
+          "earningsEstimate": {
+            "avg": {
+              "raw": 6.76,
+              "fmt": "6.76"
+            },
+            "low": {
+              "raw": 6.51,
+              "fmt": "6.51"
+            },
+            "high": {
+              "raw": 7.35,
+              "fmt": "7.35"
+            },
+            "yearAgoEps": {
+              "raw": 5.76,
+              "fmt": "5.76"
+            },
+            "numberOfAnalysts": {
+              "raw": 32,
+              "fmt": "32",
+              "longFmt": "32"
+            },
+            "growth": {
+              "raw": 0.174,
+              "fmt": "17.40%"
+            }
+          },
+          "revenueEstimate": {
+            "avg": {
+              "raw": 158301000000,
+              "fmt": "158.3B",
+              "longFmt": "158,301,000,000"
+            },
+            "low": {
+              "raw": 154480000000,
+              "fmt": "154.48B",
+              "longFmt": "154,480,000,000"
+            },
+            "high": {
+              "raw": 163037000000,
+              "fmt": "163.04B",
+              "longFmt": "163,037,000,000"
+            },
+            "numberOfAnalysts": {
+              "raw": 30,
+              "fmt": "30",
+              "longFmt": "30"
+            },
+            "yearAgoRevenue": {
+              "raw": 143015000000,
+              "fmt": "143.01B",
+              "longFmt": "143,015,000,000"
+            },
+            "growth": {
+              "raw": 0.107,
+              "fmt": "10.70%"
+            }
+          },
+          "epsTrend": {
+            "current": {
+              "raw": 6.76,
+              "fmt": "6.76"
+            },
+            "7daysAgo": {
+              "raw": 6.77,
+              "fmt": "6.77"
+            },
+            "30daysAgo": {
+              "raw": 6.77,
+              "fmt": "6.77"
+            },
+            "60daysAgo": {
+              "raw": 6.45,
+              "fmt": "6.45"
+            },
+            "90daysAgo": {
+              "raw": 6.46,
+              "fmt": "6.46"
+            }
+          },
+          "epsRevisions": {
+            "upLast7days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "upLast30days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "downLast30days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "downLast90days": {}
+          }
+        },
+        {
+          "maxAge": 1,
+          "period": "+1y",
+          "endDate": "2022-06-30",
+          "growth": {
+            "raw": 0.105,
+            "fmt": "10.50%"
+          },
+          "earningsEstimate": {
+            "avg": {
+              "raw": 7.47,
+              "fmt": "7.47"
+            },
+            "low": {
+              "raw": 6.78,
+              "fmt": "6.78"
+            },
+            "high": {
+              "raw": 8.4,
+              "fmt": "8.4"
+            },
+            "yearAgoEps": {
+              "raw": 6.76,
+              "fmt": "6.76"
+            },
+            "numberOfAnalysts": {
+              "raw": 32,
+              "fmt": "32",
+              "longFmt": "32"
+            },
+            "growth": {
+              "raw": 0.105,
+              "fmt": "10.50%"
+            }
+          },
+          "revenueEstimate": {
+            "avg": {
+              "raw": 175803000000,
+              "fmt": "175.8B",
+              "longFmt": "175,803,000,000"
+            },
+            "low": {
+              "raw": 163947000000,
+              "fmt": "163.95B",
+              "longFmt": "163,947,000,000"
+            },
+            "high": {
+              "raw": 185943000000,
+              "fmt": "185.94B",
+              "longFmt": "185,943,000,000"
+            },
+            "numberOfAnalysts": {
+              "raw": 30,
+              "fmt": "30",
+              "longFmt": "30"
+            },
+            "yearAgoRevenue": {
+              "raw": 158301000000,
+              "fmt": "158.3B",
+              "longFmt": "158,301,000,000"
+            },
+            "growth": {
+              "raw": 0.111,
+              "fmt": "11.10%"
+            }
+          },
+          "epsTrend": {
+            "current": {
+              "raw": 7.47,
+              "fmt": "7.47"
+            },
+            "7daysAgo": {
+              "raw": 7.47,
+              "fmt": "7.47"
+            },
+            "30daysAgo": {
+              "raw": 7.46,
+              "fmt": "7.46"
+            },
+            "60daysAgo": {
+              "raw": 7.33,
+              "fmt": "7.33"
+            },
+            "90daysAgo": {
+              "raw": 7.34,
+              "fmt": "7.34"
+            }
+          },
+          "epsRevisions": {
+            "upLast7days": {
+              "raw": 1,
+              "fmt": "1",
+              "longFmt": "1"
+            },
+            "upLast30days": {
+              "raw": 1,
+              "fmt": "1",
+              "longFmt": "1"
+            },
+            "downLast30days": {
+              "raw": 0,
+              "fmt": null,
+              "longFmt": "0"
+            },
+            "downLast90days": {}
+          }
+        },
+        {
+          "maxAge": 1,
+          "period": "+5y",
+          "endDate": null,
+          "growth": {
+            "raw": 0.1453,
+            "fmt": "14.53%"
+          },
+          "earningsEstimate": {
+            "avg": {},
+            "low": {},
+            "high": {},
+            "yearAgoEps": {},
+            "numberOfAnalysts": {},
+            "growth": {}
+          },
+          "revenueEstimate": {
+            "avg": {},
+            "low": {},
+            "high": {},
+            "numberOfAnalysts": {},
+            "yearAgoRevenue": {},
+            "growth": {}
+          },
+          "epsTrend": {
+            "current": {},
+            "7daysAgo": {},
+            "30daysAgo": {},
+            "60daysAgo": {},
+            "90daysAgo": {}
+          },
+          "epsRevisions": {
+            "upLast7days": {},
+            "upLast30days": {},
+            "downLast30days": {},
+            "downLast90days": {}
+          }
+        },
+        {
+          "maxAge": 1,
+          "period": "-5y",
+          "endDate": null,
+          "growth": {
+            "raw": 0.18174,
+            "fmt": "18.17%"
+          },
+          "earningsEstimate": {
+            "avg": {},
+            "low": {},
+            "high": {},
+            "yearAgoEps": {},
+            "numberOfAnalysts": {},
+            "growth": {}
+          },
+          "revenueEstimate": {
+            "avg": {},
+            "low": {},
+            "high": {},
+            "numberOfAnalysts": {},
+            "yearAgoRevenue": {},
+            "growth": {}
+          },
+          "epsTrend": {
+            "current": {},
+            "7daysAgo": {},
+            "30daysAgo": {},
+            "60daysAgo": {},
+            "90daysAgo": {}
+          },
+          "epsRevisions": {
+            "upLast7days": {},
+            "upLast30days": {},
+            "downLast30days": {},
+            "downLast90days": {}
+          }
+        }
+      ],
+      "maxAge": 1
+    },
+    "institutionOwnership": {
+      "maxAge": 1,
+      "ownershipList": [
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Vanguard Group, Inc. (The)",
+          "pctHeld": {
+            "raw": 0.082399994,
+            "fmt": "8.24%"
+          },
+          "position": {
+            "raw": 622689597,
+            "fmt": "622.69M",
+            "longFmt": "622,689,597"
+          },
+          "value": {
+            "raw": 130970302937,
+            "fmt": "130.97B",
+            "longFmt": "130,970,302,937"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Blackrock Inc.",
+          "pctHeld": {
+            "raw": 0.0683,
+            "fmt": "6.83%"
+          },
+          "position": {
+            "raw": 516065148,
+            "fmt": "516.07M",
+            "longFmt": "516,065,148"
+          },
+          "value": {
+            "raw": 108543982578,
+            "fmt": "108.54B",
+            "longFmt": "108,543,982,578"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "State Street Corporation",
+          "pctHeld": {
+            "raw": 0.040900003,
+            "fmt": "4.09%"
+          },
+          "position": {
+            "raw": 309004107,
+            "fmt": "309M",
+            "longFmt": "309,004,107"
+          },
+          "value": {
+            "raw": 64992833825,
+            "fmt": "64.99B",
+            "longFmt": "64,992,833,825"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "FMR, LLC",
+          "pctHeld": {
+            "raw": 0.0313,
+            "fmt": "3.13%"
+          },
+          "position": {
+            "raw": 236747226,
+            "fmt": "236.75M",
+            "longFmt": "236,747,226"
+          },
+          "value": {
+            "raw": 49795044044,
+            "fmt": "49.8B",
+            "longFmt": "49,795,044,044"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Price (T.Rowe) Associates Inc",
+          "pctHeld": {
+            "raw": 0.0239,
+            "fmt": "2.39%"
+          },
+          "position": {
+            "raw": 180419808,
+            "fmt": "180.42M",
+            "longFmt": "180,419,808"
+          },
+          "value": {
+            "raw": 37947698216,
+            "fmt": "37.95B",
+            "longFmt": "37,947,698,216"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Geode Capital Management, LLC",
+          "pctHeld": {
+            "raw": 0.0154,
+            "fmt": "1.54%"
+          },
+          "position": {
+            "raw": 116538073,
+            "fmt": "116.54M",
+            "longFmt": "116,538,073"
+          },
+          "value": {
+            "raw": 24511452894,
+            "fmt": "24.51B",
+            "longFmt": "24,511,452,894"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Capital World Investors",
+          "pctHeld": {
+            "raw": 0.0148,
+            "fmt": "1.48%"
+          },
+          "position": {
+            "raw": 111872823,
+            "fmt": "111.87M",
+            "longFmt": "111,872,823"
+          },
+          "value": {
+            "raw": 23530210861,
+            "fmt": "23.53B",
+            "longFmt": "23,530,210,861"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Capital International Investors",
+          "pctHeld": {
+            "raw": 0.0125,
+            "fmt": "1.25%"
+          },
+          "position": {
+            "raw": 94601027,
+            "fmt": "94.6M",
+            "longFmt": "94,601,027"
+          },
+          "value": {
+            "raw": 19897434008,
+            "fmt": "19.9B",
+            "longFmt": "19,897,434,008"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Capital Research Global Investors",
+          "pctHeld": {
+            "raw": 0.0124,
+            "fmt": "1.24%"
+          },
+          "position": {
+            "raw": 94009486,
+            "fmt": "94.01M",
+            "longFmt": "94,009,486"
+          },
+          "value": {
+            "raw": 19773015190,
+            "fmt": "19.77B",
+            "longFmt": "19,773,015,190"
+          }
+        },
+        {
+          "maxAge": 1,
+          "reportDate": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "organization": "Northern Trust Corporation",
+          "pctHeld": {
+            "raw": 0.0124,
+            "fmt": "1.24%"
+          },
+          "position": {
+            "raw": 93421404,
+            "fmt": "93.42M",
+            "longFmt": "93,421,404"
+          },
+          "value": {
+            "raw": 19649323903,
+            "fmt": "19.65B",
+            "longFmt": "19,649,323,903"
+          }
+        }
+      ]
+    },
+    "majorHoldersBreakdown": {
+      "maxAge": 1,
+      "insidersPercentHeld": 5.9E-4,
+      "institutionsPercentHeld": 0.71889,
+      "institutionsFloatPercentHeld": 0.71932,
+      "institutionsCount": 4880
+    },
+    "earningsHistory": {
+      "history": [
+        {
+          "maxAge": 1,
+          "epsActual": {
+            "raw": 1.51,
+            "fmt": "1.51"
+          },
+          "epsEstimate": {
+            "raw": 1.32,
+            "fmt": "1.32"
+          },
+          "epsDifference": {
+            "raw": 0.19,
+            "fmt": "0.19"
+          },
+          "surprisePercent": {
+            "raw": 0.144,
+            "fmt": "14.40%"
+          },
+          "quarter": {
+            "raw": 1577750400,
+            "fmt": "2019-12-31"
+          },
+          "period": "-4q"
+        },
+        {
+          "maxAge": 1,
+          "epsActual": {
+            "raw": 1.4,
+            "fmt": "1.4"
+          },
+          "epsEstimate": {
+            "raw": 1.26,
+            "fmt": "1.26"
+          },
+          "epsDifference": {
+            "raw": 0.14,
+            "fmt": "0.14"
+          },
+          "surprisePercent": {
+            "raw": 0.111,
+            "fmt": "11.10%"
+          },
+          "quarter": {
+            "raw": 1585612800,
+            "fmt": "2020-03-31"
+          },
+          "period": "-3q"
+        },
+        {
+          "maxAge": 1,
+          "epsActual": {
+            "raw": 1.46,
+            "fmt": "1.46"
+          },
+          "epsEstimate": {
+            "raw": 1.34,
+            "fmt": "1.34"
+          },
+          "epsDifference": {
+            "raw": 0.12,
+            "fmt": "0.12"
+          },
+          "surprisePercent": {
+            "raw": 0.09,
+            "fmt": "9.00%"
+          },
+          "quarter": {
+            "raw": 1593475200,
+            "fmt": "2020-06-30"
+          },
+          "period": "-2q"
+        },
+        {
+          "maxAge": 1,
+          "epsActual": {
+            "raw": 1.82,
+            "fmt": "1.82"
+          },
+          "epsEstimate": {
+            "raw": 1.54,
+            "fmt": "1.54"
+          },
+          "epsDifference": {
+            "raw": 0.28,
+            "fmt": "0.28"
+          },
+          "surprisePercent": {
+            "raw": 0.18200001,
+            "fmt": "18.20%"
+          },
+          "quarter": {
+            "raw": 1601424000,
+            "fmt": "2020-09-30"
+          },
+          "period": "-1q"
+        }
+      ],
+      "maxAge": 86400
+    },
+    "majorDirectHolders": {
+      "holders": [],
+      "maxAge": 1
+    },
+    "esgScores": {
+      "maxAge": 86400,
+      "totalEsg": 14.94,
+      "environmentScore": 0.47,
+      "socialScore": 9.37,
+      "governanceScore": 5.09,
+      "ratingYear": 2020,
+      "ratingMonth": 10,
+      "highestControversy": 3.0,
+      "peerCount": 102,
+      "esgPerformance": "UNDER_PERF",
+      "peerGroup": "Software & Services",
+      "relatedControversy": [
+        "Customer Incidents"
+      ],
+      "peerEsgScorePerformance": {
+        "min": 10.19,
+        "avg": 19.35303921568628,
+        "max": 45.0
+      },
+      "peerGovernancePerformance": {
+        "min": 4.18,
+        "avg": 7.408400000000001,
+        "max": 33.22
+      },
+      "peerSocialPerformance": {
+        "min": 4.98,
+        "avg": 10.802999999999997,
+        "max": 17.68
+      },
+      "peerEnvironmentPerformance": {
+        "min": 0.0,
+        "avg": 0.9787999999999997,
+        "max": 3.67
+      },
+      "peerHighestControversyPerformance": {
+        "min": 0.0,
+        "avg": 1.4509803921568627,
+        "max": 5.0
+      },
+      "percentile": 7.18,
+      "environmentPercentile": null,
+      "socialPercentile": null,
+      "governancePercentile": null,
+      "adult": false,
+      "alcoholic": false,
+      "animalTesting": false,
+      "catholic": false,
+      "controversialWeapons": false,
+      "smallArms": false,
+      "furLeather": false,
+      "gambling": false,
+      "gmo": false,
+      "militaryContract": false,
+      "nuclear": false,
+      "pesticides": false,
+      "palmOil": false,
+      "coal": false,
+      "tobacco": false
+    },
+    "summaryProfile": {
+      "address1": "One Microsoft Way",
+      "city": "Redmond",
+      "state": "WA",
+      "zip": "98052-6399",
+      "country": "United States",
+      "phone": "425-882-8080",
+      "website": "http://www.microsoft.com",
+      "industry": "Software—Infrastructure",
+      "sector": "Technology",
+      "longBusinessSummary": "Microsoft Corporation develops, licenses, and supports software, services, devices, and solutions worldwide. Its Productivity and Business Processes segment offers Office, Exchange, SharePoint, Microsoft Teams, Office 365 Security and Compliance, and Skype for Business, as well as related Client Access Licenses (CAL); Skype, Outlook.com, OneDrive, and LinkedIn; and Dynamics 365, a set of cloud-based and on-premises business solutions for small and medium businesses, large organizations, and divisions of enterprises. Its Intelligent Cloud segment licenses SQL and Windows Servers, Visual Studio, System Center, and related CALs; GitHub that provides a collaboration platform and code hosting service for developers; and Azure, a cloud platform. It also offers support services and Microsoft consulting services to assist customers in developing, deploying, and managing Microsoft server and desktop solutions; and training and certification to developers and IT professionals on various Microsoft products. Its More Personal Computing segment provides Windows original equipment manufacturer (OEM) licensing and other non-volume licensing of the Windows operating system; Windows Commercial, such as volume licensing of the Windows operating system, Windows cloud services, and other Windows commercial offerings; patent licensing; Windows Internet of Things; and MSN advertising. It also offers Surface, PC accessories, PCs, tablets, gaming and entertainment consoles, and other devices; Gaming, including Xbox hardware, and Xbox content and services; video games and third-party video game royalties; and Search, including Bing and Microsoft advertising. It sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online stores, and retail stores. It has a strategic collaboration with DXC Technology. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+      "fullTimeEmployees": 163000,
+      "companyOfficers": [],
+      "maxAge": 86400
+    },
+    "netSharePurchaseActivity": {
+      "maxAge": 1,
+      "period": "6m",
+      "buyInfoCount": 30,
+      "buyInfoShares": 1186518,
+      "buyPercentInsiderShares": 0.301,
+      "sellInfoCount": 11,
+      "sellInfoShares": 672711,
+      "sellPercentInsiderShares": 0.17,
+      "netInfoCount": 41,
+      "netInfoShares": 513807,
+      "netPercentInsiderShares": 0.13,
+      "totalInsiderShares": 4460693
+    },
+    "insiderTransactions": {
+      "transactions": [
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 30000,
+            "fmt": "30k",
+            "longFmt": "30,000"
+          },
+          "value": {
+            "raw": 6372801,
+            "fmt": "6.37M",
+            "longFmt": "6,372,801"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 212.43 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1607472000,
+            "fmt": "2020-12-09"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 231,
+            "fmt": "231",
+            "longFmt": "231"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 231,
+            "fmt": "231",
+            "longFmt": "231"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 231,
+            "fmt": "231",
+            "longFmt": "231"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 231,
+            "fmt": "231",
+            "longFmt": "231"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 231,
+            "fmt": "231",
+            "longFmt": "231"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 231,
+            "fmt": "231",
+            "longFmt": "231"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1606780800,
+            "fmt": "2020-12-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 100440,
+            "fmt": "100.44k",
+            "longFmt": "100,440"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "YOUNG CHRISTOPHER DAVID",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1605052800,
+            "fmt": "2020-11-11"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 104500,
+            "fmt": "104.5k",
+            "longFmt": "104,500"
+          },
+          "value": {
+            "raw": 23253330,
+            "fmt": "23.25M",
+            "longFmt": "23,253,330"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 222.52 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1604534400,
+            "fmt": "2020-11-05"
+          },
+          "ownership": "I"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 200000,
+            "fmt": "200k",
+            "longFmt": "200,000"
+          },
+          "value": {
+            "raw": 44515472,
+            "fmt": "44.52M",
+            "longFmt": "44,515,472"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 222.35 - 223.05 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1604534400,
+            "fmt": "2020-11-05"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 5000,
+            "fmt": "5k",
+            "longFmt": "5,000"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1604361600,
+            "fmt": "2020-11-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 33255,
+            "fmt": "33.26k",
+            "longFmt": "33,255"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1600128000,
+            "fmt": "2020-09-15"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 22170,
+            "fmt": "22.17k",
+            "longFmt": "22,170"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1600041600,
+            "fmt": "2020-09-14"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 27935,
+            "fmt": "27.93k",
+            "longFmt": "27,935"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1600041600,
+            "fmt": "2020-09-14"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 32147,
+            "fmt": "32.15k",
+            "longFmt": "32,147"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOOD AMY E",
+          "filerRelation": "Chief Financial Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1600041600,
+            "fmt": "2020-09-14"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 10310,
+            "fmt": "10.31k",
+            "longFmt": "10,310"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1600041600,
+            "fmt": "2020-09-14"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 12748,
+            "fmt": "12.75k",
+            "longFmt": "12,748"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1600041600,
+            "fmt": "2020-09-14"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 30000,
+            "fmt": "30k",
+            "longFmt": "30,000"
+          },
+          "value": {
+            "raw": 6294048,
+            "fmt": "6.29M",
+            "longFmt": "6,294,048"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 205.92 - 213.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599696000,
+            "fmt": "2020-09-10"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 42,
+            "fmt": "42",
+            "longFmt": "42"
+          },
+          "value": {
+            "raw": 8673,
+            "fmt": "8.67k",
+            "longFmt": "8,673"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 206.51 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599523200,
+            "fmt": "2020-09-08"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 233,
+            "fmt": "233",
+            "longFmt": "233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599177600,
+            "fmt": "2020-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 233,
+            "fmt": "233",
+            "longFmt": "233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599177600,
+            "fmt": "2020-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 233,
+            "fmt": "233",
+            "longFmt": "233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599177600,
+            "fmt": "2020-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 233,
+            "fmt": "233",
+            "longFmt": "233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599177600,
+            "fmt": "2020-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 233,
+            "fmt": "233",
+            "longFmt": "233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599177600,
+            "fmt": "2020-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 80000,
+            "fmt": "80k",
+            "longFmt": "80,000"
+          },
+          "value": {
+            "raw": 17451200,
+            "fmt": "17.45M",
+            "longFmt": "17,451,200"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 218.14 per share.",
+          "filerName": "HOOD AMY E",
+          "filerRelation": "Chief Financial Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1599091200,
+            "fmt": "2020-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 83572,
+            "fmt": "83.57k",
+            "longFmt": "83,572"
+          },
+          "value": {
+            "raw": 18993408,
+            "fmt": "18.99M",
+            "longFmt": "18,993,408"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 227.27 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598918400,
+            "fmt": "2020-09-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 83572,
+            "fmt": "83.57k",
+            "longFmt": "83,572"
+          },
+          "value": {
+            "raw": 18898358,
+            "fmt": "18.9M",
+            "longFmt": "18,898,358"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 225.26 - 226.80 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598918400,
+            "fmt": "2020-09-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 107892,
+            "fmt": "107.89k",
+            "longFmt": "107,892"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 215783,
+            "fmt": "215.78k",
+            "longFmt": "215,783"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 215783,
+            "fmt": "215.78k",
+            "longFmt": "215,783"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 117962,
+            "fmt": "117.96k",
+            "longFmt": "117,962"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 133786,
+            "fmt": "133.79k",
+            "longFmt": "133,786"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOOD AMY E",
+          "filerRelation": "Chief Financial Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 66894,
+            "fmt": "66.89k",
+            "longFmt": "66,894"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 60421,
+            "fmt": "60.42k",
+            "longFmt": "60,421"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598832000,
+            "fmt": "2020-08-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 15014,
+            "fmt": "15.01k",
+            "longFmt": "15,014"
+          },
+          "value": {
+            "raw": 3206771,
+            "fmt": "3.21M",
+            "longFmt": "3,206,771"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 213.59 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1598313600,
+            "fmt": "2020-08-25"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 12500,
+            "fmt": "12.5k",
+            "longFmt": "12,500"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1597622400,
+            "fmt": "2020-08-17"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 30871,
+            "fmt": "30.87k",
+            "longFmt": "30,871"
+          },
+          "value": {
+            "raw": 6479764,
+            "fmt": "6.48M",
+            "longFmt": "6,479,764"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 209.90 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1597622400,
+            "fmt": "2020-08-17"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 15140,
+            "fmt": "15.14k",
+            "longFmt": "15,140"
+          },
+          "value": {
+            "raw": 3255100,
+            "fmt": "3.26M",
+            "longFmt": "3,255,100"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 215.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1596672000,
+            "fmt": "2020-08-06"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 4000,
+            "fmt": "4k",
+            "longFmt": "4,000"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1593475200,
+            "fmt": "2020-06-30"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 49,
+            "fmt": "49",
+            "longFmt": "49"
+          },
+          "value": {
+            "raw": 9117,
+            "fmt": "9.12k",
+            "longFmt": "9,117"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 186.05 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591574400,
+            "fmt": "2020-06-08"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 273,
+            "fmt": "273",
+            "longFmt": "273"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 273,
+            "fmt": "273",
+            "longFmt": "273"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 273,
+            "fmt": "273",
+            "longFmt": "273"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 273,
+            "fmt": "273",
+            "longFmt": "273"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 233,
+            "fmt": "233",
+            "longFmt": "233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 273,
+            "fmt": "273",
+            "longFmt": "273"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 273,
+            "fmt": "273",
+            "longFmt": "273"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1591228800,
+            "fmt": "2020-06-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 27200,
+            "fmt": "27.2k",
+            "longFmt": "27,200"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "THOMPSON JOHN WENDELL",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1588636800,
+            "fmt": "2020-05-05"
+          },
+          "ownership": "I"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 115837,
+            "fmt": "115.84k",
+            "longFmt": "115,837"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1588550400,
+            "fmt": "2020-05-04"
+          },
+          "ownership": "D/I"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 3000,
+            "fmt": "3k",
+            "longFmt": "3,000"
+          },
+          "value": {
+            "raw": 530811,
+            "fmt": "530.81k",
+            "longFmt": "530,811"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 176.94 per share.",
+          "filerName": "BROD FRANK H",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1588291200,
+            "fmt": "2020-05-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 35000,
+            "fmt": "35k",
+            "longFmt": "35,000"
+          },
+          "value": {
+            "raw": 6162800,
+            "fmt": "6.16M",
+            "longFmt": "6,162,800"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 176.08 per share.",
+          "filerName": "JOHNSON MARGARET L",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1588291200,
+            "fmt": "2020-05-01"
+          },
+          "ownership": "I"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 5000,
+            "fmt": "5k",
+            "longFmt": "5,000"
+          },
+          "value": {
+            "raw": 869000,
+            "fmt": "869k",
+            "longFmt": "869,000"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 173.80 per share.",
+          "filerName": "BROD FRANK H",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1583193600,
+            "fmt": "2020-03-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 280174,
+            "fmt": "280.17k",
+            "longFmt": "280,174"
+          },
+          "value": {
+            "raw": 47200996,
+            "fmt": "47.2M",
+            "longFmt": "47,200,996"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 163.06 - 174.72 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1583193600,
+            "fmt": "2020-03-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 54,
+            "fmt": "54",
+            "longFmt": "54"
+          },
+          "value": {
+            "raw": 8887,
+            "fmt": "8.89k",
+            "longFmt": "8,887"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 164.58 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1583193600,
+            "fmt": "2020-03-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 900000,
+            "fmt": "900k",
+            "longFmt": "900,000"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580947200,
+            "fmt": "2020-02-06"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 3100,
+            "fmt": "3.1k",
+            "longFmt": "3,100"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580947200,
+            "fmt": "2020-02-06"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 18000,
+            "fmt": "18k",
+            "longFmt": "18,000"
+          },
+          "value": {
+            "raw": 3231810,
+            "fmt": "3.23M",
+            "longFmt": "3,231,810"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 179.54 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580774400,
+            "fmt": "2020-02-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 293,
+            "fmt": "293",
+            "longFmt": "293"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580428800,
+            "fmt": "2020-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 293,
+            "fmt": "293",
+            "longFmt": "293"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580428800,
+            "fmt": "2020-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 293,
+            "fmt": "293",
+            "longFmt": "293"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580428800,
+            "fmt": "2020-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 293,
+            "fmt": "293",
+            "longFmt": "293"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580428800,
+            "fmt": "2020-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 293,
+            "fmt": "293",
+            "longFmt": "293"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580428800,
+            "fmt": "2020-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 293,
+            "fmt": "293",
+            "longFmt": "293"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WALMSLEY EMMA NATASHA",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1580428800,
+            "fmt": "2020-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 260,
+            "fmt": "260",
+            "longFmt": "260"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1576627200,
+            "fmt": "2019-12-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 35000,
+            "fmt": "35k",
+            "longFmt": "35,000"
+          },
+          "value": {
+            "raw": 5250462,
+            "fmt": "5.25M",
+            "longFmt": "5,250,462"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 150.01 per share.",
+          "filerName": "JOHNSON MARGARET L",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575504000,
+            "fmt": "2019-12-05"
+          },
+          "ownership": "I"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 14000,
+            "fmt": "14k",
+            "longFmt": "14,000"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575417600,
+            "fmt": "2019-12-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 335,
+            "fmt": "335",
+            "longFmt": "335"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575331200,
+            "fmt": "2019-12-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 335,
+            "fmt": "335",
+            "longFmt": "335"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "PANKE HELMUT",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575331200,
+            "fmt": "2019-12-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 335,
+            "fmt": "335",
+            "longFmt": "335"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575331200,
+            "fmt": "2019-12-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 335,
+            "fmt": "335",
+            "longFmt": "335"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575331200,
+            "fmt": "2019-12-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 335,
+            "fmt": "335",
+            "longFmt": "335"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575331200,
+            "fmt": "2019-12-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 335,
+            "fmt": "335",
+            "longFmt": "335"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1575331200,
+            "fmt": "2019-12-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 6613,
+            "fmt": "6.61k",
+            "longFmt": "6,613"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1574726400,
+            "fmt": "2019-11-26"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 10000,
+            "fmt": "10k",
+            "longFmt": "10,000"
+          },
+          "value": {
+            "raw": 1445771,
+            "fmt": "1.45M",
+            "longFmt": "1,445,771"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 144.01 - 144.76 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1573084800,
+            "fmt": "2019-11-07"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 5000,
+            "fmt": "5k",
+            "longFmt": "5,000"
+          },
+          "value": {
+            "raw": 722925,
+            "fmt": "722.92k",
+            "longFmt": "722,925"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 144.42 - 144.75 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1572912000,
+            "fmt": "2019-11-05"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 10000,
+            "fmt": "10k",
+            "longFmt": "10,000"
+          },
+          "value": {
+            "raw": 1437291,
+            "fmt": "1.44M",
+            "longFmt": "1,437,291"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 142.89 - 144.66 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1572393600,
+            "fmt": "2019-10-30"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 24419,
+            "fmt": "24.42k",
+            "longFmt": "24,419"
+          },
+          "value": {
+            "raw": 3489152,
+            "fmt": "3.49M",
+            "longFmt": "3,489,152"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 141.00 - 145.06 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1572220800,
+            "fmt": "2019-10-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 15974,
+            "fmt": "15.97k",
+            "longFmt": "15,974"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "BROD FRANK H",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 27202,
+            "fmt": "27.2k",
+            "longFmt": "27,202"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 90672,
+            "fmt": "90.67k",
+            "longFmt": "90,672"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 33368,
+            "fmt": "33.37k",
+            "longFmt": "33,368"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 18135,
+            "fmt": "18.14k",
+            "longFmt": "18,135"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSON MARGARET L",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 40621,
+            "fmt": "40.62k",
+            "longFmt": "40,621"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOOD AMY E",
+          "filerRelation": "Chief Financial Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 16865,
+            "fmt": "16.86k",
+            "longFmt": "16,865"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 16321,
+            "fmt": "16.32k",
+            "longFmt": "16,321"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568764800,
+            "fmt": "2019-09-18"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 9000,
+            "fmt": "9k",
+            "longFmt": "9,000"
+          },
+          "value": {
+            "raw": 1220217,
+            "fmt": "1.22M",
+            "longFmt": "1,220,217"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 135.58 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568073600,
+            "fmt": "2019-09-10"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 40000,
+            "fmt": "40k",
+            "longFmt": "40,000"
+          },
+          "value": {
+            "raw": 5409972,
+            "fmt": "5.41M",
+            "longFmt": "5,409,972"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 135.25 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1568073600,
+            "fmt": "2019-09-10"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 18500,
+            "fmt": "18.5k",
+            "longFmt": "18,500"
+          },
+          "value": {
+            "raw": 2588616,
+            "fmt": "2.59M",
+            "longFmt": "2,588,616"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 139.84 - 140.10 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567728000,
+            "fmt": "2019-09-06"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 11779,
+            "fmt": "11.78k",
+            "longFmt": "11,779"
+          },
+          "value": {
+            "raw": 1649060,
+            "fmt": "1.65M",
+            "longFmt": "1,649,060"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 140.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567641600,
+            "fmt": "2019-09-05"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 12500,
+            "fmt": "12.5k",
+            "longFmt": "12,500"
+          },
+          "value": {
+            "raw": 1741938,
+            "fmt": "1.74M",
+            "longFmt": "1,741,938"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 139.35 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567641600,
+            "fmt": "2019-09-05"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 4000,
+            "fmt": "4k",
+            "longFmt": "4,000"
+          },
+          "value": {
+            "raw": 548680,
+            "fmt": "548.68k",
+            "longFmt": "548,680"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 137.17 per share.",
+          "filerName": "BROD FRANK H",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567555200,
+            "fmt": "2019-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 99837,
+            "fmt": "99.84k",
+            "longFmt": "99,837"
+          },
+          "value": {
+            "raw": 13697323,
+            "fmt": "13.7M",
+            "longFmt": "13,697,323"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 137.16 - 137.54 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567555200,
+            "fmt": "2019-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 123769,
+            "fmt": "123.77k",
+            "longFmt": "123,769"
+          },
+          "value": {
+            "raw": 16988657,
+            "fmt": "16.99M",
+            "longFmt": "16,988,657"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 137.26 per share.",
+          "filerName": "HOOD AMY E",
+          "filerRelation": "Chief Financial Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567555200,
+            "fmt": "2019-09-04"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 128262,
+            "fmt": "128.26k",
+            "longFmt": "128,262"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 256523,
+            "fmt": "256.52k",
+            "longFmt": "256,523"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 140233,
+            "fmt": "140.23k",
+            "longFmt": "140,233"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 85509,
+            "fmt": "85.51k",
+            "longFmt": "85,509"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSON MARGARET L",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 159044,
+            "fmt": "159.04k",
+            "longFmt": "159,044"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOOD AMY E",
+          "filerRelation": "Chief Financial Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 73538,
+            "fmt": "73.54k",
+            "longFmt": "73,538"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 71828,
+            "fmt": "71.83k",
+            "longFmt": "71,828"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567468800,
+            "fmt": "2019-09-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 369,
+            "fmt": "369",
+            "longFmt": "369"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567036800,
+            "fmt": "2019-08-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 369,
+            "fmt": "369",
+            "longFmt": "369"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "PANKE HELMUT",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567036800,
+            "fmt": "2019-08-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 369,
+            "fmt": "369",
+            "longFmt": "369"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567036800,
+            "fmt": "2019-08-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 369,
+            "fmt": "369",
+            "longFmt": "369"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567036800,
+            "fmt": "2019-08-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 369,
+            "fmt": "369",
+            "longFmt": "369"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567036800,
+            "fmt": "2019-08-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 369,
+            "fmt": "369",
+            "longFmt": "369"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1567036800,
+            "fmt": "2019-08-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 7000,
+            "fmt": "7k",
+            "longFmt": "7,000"
+          },
+          "value": {
+            "raw": 967050,
+            "fmt": "967.05k",
+            "longFmt": "967,050"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 138.15 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1565654400,
+            "fmt": "2019-08-13"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 3500,
+            "fmt": "3.5k",
+            "longFmt": "3,500"
+          },
+          "value": {
+            "raw": 483006,
+            "fmt": "483.01k",
+            "longFmt": "483,006"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 138.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1565222400,
+            "fmt": "2019-08-08"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 3372,
+            "fmt": "3.37k",
+            "longFmt": "3,372"
+          },
+          "value": {
+            "raw": 465542,
+            "fmt": "465.54k",
+            "longFmt": "465,542"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 138.06 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1564617600,
+            "fmt": "2019-08-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 5311,
+            "fmt": "5.31k",
+            "longFmt": "5,311"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1564531200,
+            "fmt": "2019-07-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 4000,
+            "fmt": "4k",
+            "longFmt": "4,000"
+          },
+          "value": {
+            "raw": 564216,
+            "fmt": "564.22k",
+            "longFmt": "564,216"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 141.05 per share.",
+          "filerName": "BROD FRANK H",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1564358400,
+            "fmt": "2019-07-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 15947,
+            "fmt": "15.95k",
+            "longFmt": "15,947"
+          },
+          "value": {
+            "raw": 2123654,
+            "fmt": "2.12M",
+            "longFmt": "2,123,654"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 133.17 per share.",
+          "filerName": "HOGAN KATHLEEN T",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1560124800,
+            "fmt": "2019-06-10"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 5000,
+            "fmt": "5k",
+            "longFmt": "5,000"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559088000,
+            "fmt": "2019-05-29"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 396,
+            "fmt": "396",
+            "longFmt": "396"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559001600,
+            "fmt": "2019-05-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 396,
+            "fmt": "396",
+            "longFmt": "396"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "PANKE HELMUT",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559001600,
+            "fmt": "2019-05-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 396,
+            "fmt": "396",
+            "longFmt": "396"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559001600,
+            "fmt": "2019-05-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 396,
+            "fmt": "396",
+            "longFmt": "396"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559001600,
+            "fmt": "2019-05-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 396,
+            "fmt": "396",
+            "longFmt": "396"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559001600,
+            "fmt": "2019-05-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 396,
+            "fmt": "396",
+            "longFmt": "396"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1559001600,
+            "fmt": "2019-05-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 5000,
+            "fmt": "5k",
+            "longFmt": "5,000"
+          },
+          "value": {
+            "raw": 630099,
+            "fmt": "630.1k",
+            "longFmt": "630,099"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 125.53 - 126.34 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1557878400,
+            "fmt": "2019-05-15"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 1600,
+            "fmt": "1.6k",
+            "longFmt": "1,600"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1557273600,
+            "fmt": "2019-05-08"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 3000,
+            "fmt": "3k",
+            "longFmt": "3,000"
+          },
+          "value": {
+            "raw": 386620,
+            "fmt": "386.62k",
+            "longFmt": "386,620"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 128.87 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1556841600,
+            "fmt": "2019-05-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 192300,
+            "fmt": "192.3k",
+            "longFmt": "192,300"
+          },
+          "value": {
+            "raw": 25064209,
+            "fmt": "25.06M",
+            "longFmt": "25,064,209"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 130.34 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1556582400,
+            "fmt": "2019-04-30"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 8405,
+            "fmt": "8.4k",
+            "longFmt": "8,405"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Gift at price 0.00 per share.",
+          "filerName": "SMITH BRADFORD LEE",
+          "filerRelation": "President",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1554249600,
+            "fmt": "2019-04-03"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 10500,
+            "fmt": "10.5k",
+            "longFmt": "10,500"
+          },
+          "value": {
+            "raw": 1170543,
+            "fmt": "1.17M",
+            "longFmt": "1,170,543"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 110.46 - 112.41 per share.",
+          "filerName": "CAPOSSELA CHRISTOPHER C",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1552262400,
+            "fmt": "2019-03-11"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 15334,
+            "fmt": "15.33k",
+            "longFmt": "15,334"
+          },
+          "value": {
+            "raw": 1722189,
+            "fmt": "1.72M",
+            "longFmt": "1,722,189"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 112.27 - 112.80 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1551398400,
+            "fmt": "2019-03-01"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 7220,
+            "fmt": "7.22k",
+            "longFmt": "7,220"
+          },
+          "value": {
+            "raw": 814127,
+            "fmt": "814.13k",
+            "longFmt": "814,127"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 112.76 per share.",
+          "filerName": "BROD FRANK H",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1551312000,
+            "fmt": "2019-02-28"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 28147,
+            "fmt": "28.15k",
+            "longFmt": "28,147"
+          },
+          "value": {
+            "raw": 3043757,
+            "fmt": "3.04M",
+            "longFmt": "3,043,757"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 108.14 per share.",
+          "filerName": "COURTOIS JEAN-PHILIPPE",
+          "filerRelation": "Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1550188800,
+            "fmt": "2019-02-15"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 900000,
+            "fmt": "900k",
+            "longFmt": "900,000"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1549411200,
+            "fmt": "2019-02-06"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 267466,
+            "fmt": "267.47k",
+            "longFmt": "267,466"
+          },
+          "value": {
+            "raw": 28354525,
+            "fmt": "28.35M",
+            "longFmt": "28,354,525"
+          },
+          "filerUrl": "",
+          "transactionText": "Sale at price 106.01 per share.",
+          "filerName": "NADELLA SATYA",
+          "filerRelation": "Chief Executive Officer",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1549411200,
+            "fmt": "2019-02-06"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 478,
+            "fmt": "478",
+            "longFmt": "478"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SCHARF CHARLES W",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1548892800,
+            "fmt": "2019-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 478,
+            "fmt": "478",
+            "longFmt": "478"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "PANKE HELMUT",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1548892800,
+            "fmt": "2019-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 478,
+            "fmt": "478",
+            "longFmt": "478"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "SORENSON ARNE M",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1548892800,
+            "fmt": "2019-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 478,
+            "fmt": "478",
+            "longFmt": "478"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "STANTON JOHN",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1548892800,
+            "fmt": "2019-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 478,
+            "fmt": "478",
+            "longFmt": "478"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "WARRIOR PADMASREE",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1548892800,
+            "fmt": "2019-01-31"
+          },
+          "ownership": "D"
+        },
+        {
+          "maxAge": 1,
+          "shares": {
+            "raw": 478,
+            "fmt": "478",
+            "longFmt": "478"
+          },
+          "value": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "filerUrl": "",
+          "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+          "filerName": "JOHNSTON HUGH F.",
+          "filerRelation": "Director",
+          "moneyText": "",
+          "startDate": {
+            "raw": 1548892800,
+            "fmt": "2019-01-31"
+          },
+          "ownership": "D"
+        }
+      ],
+      "maxAge": 1
+    },
+    "sectorTrend": {
+      "maxAge": 1,
+      "symbol": null,
+      "estimates": []
+    },
+    "earnings": {
+      "maxAge": 86400,
+      "earningsChart": {
+        "quarterly": [
+          {
+            "date": "4Q2019",
+            "actual": 1.51,
+            "estimate": 1.32
+          },
+          {
+            "date": "1Q2020",
+            "actual": 1.4,
+            "estimate": 1.26
+          },
+          {
+            "date": "2Q2020",
+            "actual": 1.46,
+            "estimate": 1.34
+          },
+          {
+            "date": "3Q2020",
+            "actual": 1.82,
+            "estimate": 1.54
+          }
+        ],
+        "currentQuarterEstimate": 1.64,
+        "currentQuarterEstimateDate": "4Q",
+        "currentQuarterEstimateYear": 2020,
+        "earningsDate": [
+          1611705600,
+          1612137600
+        ]
+      },
+      "financialsChart": {
+        "yearly": [
+          {
+            "date": 2017,
+            "revenue": 96571000000,
+            "earnings": 25489000000
+          },
+          {
+            "date": 2018,
+            "revenue": 110360000000,
+            "earnings": 16571000000
+          },
+          {
+            "date": 2019,
+            "revenue": 125843000000,
+            "earnings": 39240000000
+          },
+          {
+            "date": 2020,
+            "revenue": 143015000000,
+            "earnings": 44281000000
+          }
+        ],
+        "quarterly": [
+          {
+            "date": "4Q2019",
+            "revenue": 36906000000,
+            "earnings": 11649000000
+          },
+          {
+            "date": "1Q2020",
+            "revenue": 35021000000,
+            "earnings": 10752000000
+          },
+          {
+            "date": "2Q2020",
+            "revenue": 38033000000,
+            "earnings": 11202000000
+          },
+          {
+            "date": "3Q2020",
+            "revenue": 37154000000,
+            "earnings": 13893000000
+          }
+        ]
+      },
+      "financialCurrency": "USD"
+    },
+    "pageViews": {
+      "shortTermTrend": "DOWN",
+      "midTermTrend": "UP",
+      "longTermTrend": "UP",
+      "maxAge": 1
+    },
+    "financialData": {
+      "maxAge": 86400,
+      "currentPrice": 219.28,
+      "targetHighPrice": 260.0,
+      "targetLowPrice": 169.49,
+      "targetMeanPrice": 239.37,
+      "targetMedianPrice": 245.0,
+      "recommendationMean": 1.7,
+      "recommendationKey": "buy",
+      "numberOfAnalystOpinions": 30,
+      "totalCash": 137949003776,
+      "totalCashPerShare": 18.246,
+      "ebitda": 68123000832,
+      "totalDebt": 83215998976,
+      "quickRatio": 2.295,
+      "currentRatio": 2.528,
+      "totalRevenue": 147114000384,
+      "debtToEquity": 67.44,
+      "revenuePerShare": 19.375,
+      "returnOnAssets": 0.121020004,
+      "returnOnEquity": 0.41399,
+      "grossProfits": 96937000000,
+      "freeCashflow": 32232249344,
+      "operatingCashflow": 66191998976,
+      "earningsGrowth": 0.319,
+      "revenueGrowth": 0.124,
+      "grossMargins": 0.68273,
+      "ebitdaMargins": 0.46306,
+      "operatingMargins": 0.38167,
+      "profitMargins": 0.32285,
+      "financialCurrency": "USD"
+    }
+  }
+}
