@@ -1,11 +1,11 @@
 {
-    "name": "daily_order",
-    "short_name": "daily_order",
+    "name": "altera_app",
+    "short_name": "altera_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter application.",
+    "description": "Customer-facing cross-platform app created using Flutter.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

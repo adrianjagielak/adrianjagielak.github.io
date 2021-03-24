@@ -1,1 +1,0 @@
-# adrianjagielak.github.io
