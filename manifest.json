@@ -1,13 +1,23 @@
 {
-    "name": "altera_app",
-    "short_name": "altera_app",
+    "name": "Altera",
+    "short_name": "Altera",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Customer-facing cross-platform app created using Flutter.",
+    "background_color": "#FFFFFF",
+    "theme_color": "#2CAB67",
+    "description": "Profesjonalne i nowoczesne usługi księgowe dla Twojej firmy.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=app.altera",
+            "id": "app.altera"
+        }, {
+            "platform": "itunes",
+            "url": "https://itunes.apple.com/app/altera-app/id123456789"
+        }
+    ],
     "icons": [
         {
             "src": "icons/Icon-192.png",
