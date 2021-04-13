@@ -130,12 +130,31 @@
   .card-padding-3 {padding: 24px 92px 80px 92px;}
 }
 
+.dont-break-out {
+
+/* These are technically the same, but use both */
+overflow-wrap: break-word;
+word-wrap: break-word;
+
+-ms-word-break: break-all;
+/* This is the dangerous one in WebKit, as it breaks things wherever */
+word-break: break-all;
+/* Instead use this non-standard one: */
+word-break: break-word;
+
+/* Adds a hyphen where the word breaks, if supported (No Blink) */
+-ms-hyphens: auto;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+hyphens: auto;
+
+}
+
   </style>
 
 </head>
 <body
 style="background-image: linear-gradient(120deg, #1F1D49, #2CAB67); min-height: 100vh; margin: 0 !important; padding: 0 !important;"
-
 >
   <!-- start preheader -->
   <div class="preheader" style="display: none; max-width: 0; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #fff; opacity: 0;">
@@ -238,7 +257,7 @@ style="background-image: linear-gradient(120deg, #1F1D49, #2CAB67); min-height: 
           <tr>
             <td class="card-padding-3" align="left" bgcolor="#ffffff" style="font-family: 'Mulish', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-radius: 0px 0px 8px 8px;">
               <p style="margin: 0; color: #1F1D49">Jeżeli to nie zadziałało skopiuj i wklej poniższy link do paska adresu Twojej przeglądarki:</p>
-              <p style="margin: 0;"><a href="https://pages.altera.co/confirm-email?token=ZW1haWxAZW1haWwuY29tOjQxMjMzNQ" target="_blank" style="color: #2CAB67;"> https://altera.app/confirm-email?token=ZW1haWxAZW1haWwuY29tOjQxMjMzNQ</a></p>
+              <p style="margin: 0;"><a class="dont-break-out" href="https://pages.altera.co/confirm-email?token=ZW1haWxAZW1haWwuY29tOjQxMjMzNQ" target="_blank" style="color: #2CAB67;">https://altera.app/confirm-email?token=ZW1haWxAZW1haWwuY29tOjQxMjMzNQ</a></p>
             </td>
           </tr>
           <!-- end copy -->
