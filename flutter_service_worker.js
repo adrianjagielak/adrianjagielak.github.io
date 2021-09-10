@@ -3,19 +3,23 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-"bin/canvaskit.wasm": "97f2e24890ac932d85e97460a2ca96ee",
-"bin/canvaskit.js": "3f4c97c0af35f0d5423291f0268adb77",
-  "version.json": "31ddd81e2b0020b7007c92c3d7a4893e",
-"index.html": "d03a9e57991fd515287cbe23e52f9adb",
-"/": "d03a9e57991fd515287cbe23e52f9adb",
-"main.dart.js": "422b546156972f802deabe41593650c2",
+"bin/canvaskit.wasm": "3d45442c520e5c8f13dcacd24c64ce0f",
+"bin/canvaskit.js": "7e671cf059b389ce2e723ba2106bd0f3",
+  "version.json": "f57785b419761c74383d4ccb8d0c5752",
+"index.html": "4963a38efe78f2121d4e23312599f4be",
+"/": "4963a38efe78f2121d4e23312599f4be",
+"main.dart.js": "b2d5c6808cfa3298385c9da23f903324",
 "favicon.png": "d2a87161782a4567902923778c52d062",
 "icons/Icon-192.png": "d6719d97be9eaa31a3cbd71f89acc5f9",
 "icons/Icon-512.png": "c070cfe1eb14075d666f674380365fb6",
 "manifest.json": "bda72bd40a31ddfce1afc8b2da203d32",
-"assets/AssetManifest.json": "a26fe76b994fd1a73ca59390126d69e9",
-"assets/NOTICES": "64a8e091988e06be8e55b11d0a0805fb",
-"assets/FontManifest.json": "2350e3e1cf1e6db8d1150649835f41c6",
+"assets/AssetManifest.json": "552180431ae06bc79d2835feba2672bd",
+"assets/NOTICES": "e88ea7a1a8e407e148c29f7b7f3be930",
+"assets/FontManifest.json": "9933181bb438ccef1d4b60bef71eefd9",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "ffed6899ceb84c60a1efa51c809a57e4",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "3241d1d9c15448a4da96df05f3292ffe",
+"assets/packages/youtube_player_flutter/assets/speedometer.webp": "50448630e948b5b3998ae5a5d112622b",
 "assets/packages/design_system/fonts/app_icons.ttf": "a13ad1bef7a43590fb10368e544ed1e0",
 "assets/packages/design_system/fonts/Mulish/Mulish-Regular.ttf": "e128ac44faa84b2d59c10c016fad0778",
 "assets/packages/design_system/fonts/Mulish/Mulish-Black.ttf": "792ce4b85b6f984387e238effc5d3899",
@@ -851,6 +855,8 @@ const RESOURCES = {
 "assets/packages/design_system/assets/gold_promo_graphic.png": "f37e9b578cfb2eb508c61d8f1cced074",
 "assets/packages/design_system/assets/altera_logo_white_195.png": "df253126f0d76787731165aa0a6ee49c",
 "assets/packages/design_system/assets/altera_logo_white_168.png": "1ad4815e49dff7fc071331d67f1251fa",
+"assets/packages/flutter_inappwebview/t_rex_runner/t-rex.css": "5a8d0222407e388155d7d1395a75d5b9",
+"assets/packages/flutter_inappwebview/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
 };
 
