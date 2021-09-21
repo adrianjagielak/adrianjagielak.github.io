@@ -7604,9 +7604,9 @@ bbD(){var s=0,r=P.y(t.y),q,p=2,o,n=[],m,l,k,j
 var $async$bbD=P.u(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 l=$.jb()
-l.hu(C.eE,"Checking if online... (GET https://www.google.com/gen_204)",null,null)
+l.hu(C.eE,"Checking if online... (GET /ping)",null,null)
 s=7
-return P.z(G.bOy(P.cP("https","www.google.com","gen_204",null)),$async$bbD)
+return P.z(G.bOy(P.cP("https",u.k,"ping",null)),$async$bbD)
 case 7:l.hu(C.eE,"Online status: true",null,null)
 q=!0
 s=1
