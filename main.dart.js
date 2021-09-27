@@ -65487,7 +65487,7 @@ return T.dp(M.U(s,T.Z(H.a([r,T.e2(!1,s,L.n("[Debug] Poka\u017c widok kosztu",s,s
 N.b5d.prototype={
 $0(){var s=0,r=P.x(t.z),q
 var $async$$0=P.t(function(a,b){if(a===1)return P.u(b,r)
-while(true)switch(s){case 0:q=T.bkZ(H.a([G.bjj("https://github.com/adrianjagielak/adrianjagielak.github.io/raw/master/invoice_1.pdf"),G.bjj("https://github.com/adrianjagielak/adrianjagielak.github.io/raw/master/invoice_2.pdf"),G.bjj("https://github.com/adrianjagielak/adrianjagielak.github.io/raw/master/invoice_3.pdf")],t.Vu),t.z)
+while(true)switch(s){case 0:q=T.bkZ(H.a([G.bjj("http://adrianjagielak.github.io/invoice_1.pdf"),G.bjj("http://adrianjagielak.github.io/invoice_2.pdf"),G.bjj("http://adrianjagielak.github.io/invoice_3.pdf")],t.Vu),t.z)
 s=1
 break
 case 1:return P.v(q,r)}})
