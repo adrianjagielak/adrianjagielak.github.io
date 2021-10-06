@@ -147,6 +147,21 @@
   </div>
 </div>
 
+<script type="text/javascript">
+  // store a reference to original vector
+  HTMLCanvasElement.prototype.__oldGetContext = HTMLCanvasElement.prototype.getContext;
+
+  // patch
+  HTMLCanvasElement.prototype.getContext = function(type, options) {
+    if (type === "webgl2") {
+      console.log("WebGL suppressed!");                // remove this in production
+      alert("WebGL suppressed!");
+      return null;
+    }
+    else return this.__oldGetContext(type, options);   // call original vector
+  }
+</script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
 <script type="text/javascript">
   pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
