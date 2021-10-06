@@ -11,8 +11,8 @@
   "related_applications": [
     {
       "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=app.altera",
-      "id": "app.altera"
+      "url": "https://play.google.com/store/apps/details?id=co.altera.app",
+      "id": "co.altera.app"
     },
     {
       "platform": "itunes",
