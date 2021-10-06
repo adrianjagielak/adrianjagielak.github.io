@@ -147,30 +147,16 @@
   </div>
 </div>
 
- <!-- Safari iOS 15 WebGL 2.0 fix (https://github.com/flutter/flutter/issues/89655) (https://github.com/flutter/engine/pull/29038) -->
- <script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
- <script type="text/javascript">
-   if (platform.name.toLowerCase() == "safari" && parseInt(platform.version.split(".")[0]) >= 15) {
-    HTMLCanvasElement.prototype.getContext = function (orig) {
-      return function(type) {
-        return type !== "webgl2" ? orig.apply(this, arguments) : null
-      }
-    }(HTMLCanvasElement.prototype.getContext)
-   }
- </script>
-
+<!-- Safari iOS 15 WebGL 2.0 fix (https://github.com/flutter/flutter/issues/89655) -->
+<!-- TODO(your_username): Remove when https://github.com/flutter/engine/pull/29038 will be merged to stable -->
+<script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
 <script type="text/javascript">
-  // // store a reference to original vector
-  // HTMLCanvasElement.prototype.__oldGetContext = HTMLCanvasElement.prototype.getContext;
-
-  // // patch
-  // HTMLCanvasElement.prototype.getContext = function(type, options) {
-  //   if (type === "webgl2") {
-  //     console.log("WebGL suppressed!");                // remove this in production
-  //     alert("WebGL suppressed!");
-  //     return null;
-  //   }
-  //   else return this.__oldGetContext(type, options);   // call original vector
+  // if (platform.name.toLowerCase() == "safari" && parseInt(platform.version.split(".")[0]) >= 15) {
+  //  HTMLCanvasElement.prototype.getContext = function (orig) {
+  //    return function(type) {
+  //      return type !== "webgl2" ? orig.apply(this, arguments) : null
+  //    }
+  //  }(HTMLCanvasElement.prototype.getContext)
   // }
 </script>
 
