@@ -151,13 +151,13 @@
 <!-- TODO(your_username): Remove when https://github.com/flutter/engine/pull/29038 will be merged to stable -->
 <script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
 <script type="text/javascript">
-  // if (platform.name.toLowerCase() == "safari" && parseInt(platform.version.split(".")[0]) >= 15) {
-  //  HTMLCanvasElement.prototype.getContext = function (orig) {
-  //    return function(type) {
-  //      return type !== "webgl2" ? orig.apply(this, arguments) : null
-  //    }
-  //  }(HTMLCanvasElement.prototype.getContext)
-  // }
+  if (platform.name.toLowerCase() == "safari" && parseInt(platform.version.split(".")[0]) >= 15) {
+   HTMLCanvasElement.prototype.getContext = function (orig) {
+     return function(type) {
+       return type !== "webgl2" ? orig.apply(this, arguments) : null
+     }
+   }(HTMLCanvasElement.prototype.getContext)
+  }
 </script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
