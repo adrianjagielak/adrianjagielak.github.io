@@ -1,0 +1,66 @@
+appName: Altera
+searchFilter: 'Search:'
+searchFilterHint: e.g. Altera
+issueDateFilter: 'Issue date:'
+dateHint: DD.MM.RRRR
+tabSales: Sales
+newInvoice: New invoice
+newExpense: New expense
+originalInvoice: Original invoice
+relatedInvoice: Related invoice
+newInvoiceOriginalSales: Sales
+newInvoiceOriginalInterim: Prepayment #?
+newInvoiceOriginalProForma: Pro forma
+newInvoiceRelatedInterimFinal: Final prepayment #?
+newInvoiceRelatedCorrection: Correction
+newInvoiceRelatedSales: Sales for pro forma
+allFiltersButton:
+  zero: All filters
+  other: All filters ({})
+invoiceListIsEmpty: No invoices to show
+invoicesTab: Invoices
+# The number of pixels that the text takes on a tab with added a single pixel
+# just to be sure it wont work on some weird scaling settings. Picked using
+# trials and errors method.
+invoicesTabWidth: 106.0
+draftsTab: Drafts
+# The number of pixels that the text takes on a tab with added a single pixel
+# just to be sure it wont work on some weird scaling settings. Picked using
+# trials and errors method.
+draftsTabWidth: 96.0
+clearFilters: Clear filters
+invoiceNumberTableHeader: Invoice number
+contractorNameTableHeader: Customer
+issueDateTableHeader: Issue date
+saleDateTableHeader: Sale date
+dueDateTableHeader: Due date
+grossPriceTableHeader: Gross price
+statusTableHeader: Status
+salesInvoiceBadge: SALES
+proFormaInvoiceBadge: PRO FORMA
+interimInvoiceBadge: PREPAYMENT #?
+interimFinalInvoiceBadge: FINAL PREP. #?
+correctionInvoiceBadge: CORRECTION
+documentStatusDraftBadge: DRAFT
+documentStatusIssuedBadge: ISSUED
+documentStatusSentBadge: SENT
+paymentStatusPaidBadge: PAID
+paymentStatusNotPaidBadge: UNPAID
+paymentStatusOverdueBadge: OVERDUE
+filterSuggestions: 'Suggestions:'
+currentMonthFilter: Current month
+previousMonthFilter: Previous month
+notPaidFilter: Unpaid
+overdueFilter: Overdue
+
+header:
+  tabs:
+    sales: Sales
+    expenses: Expenses
+    files: Documents
+    payments: Payments
+    finances: Finances
+    messages: Messages
+    settings: Settings
+    goldAd: Accounting
+    help: Help

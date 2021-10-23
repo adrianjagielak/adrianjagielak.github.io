@@ -13,27 +13,8 @@
   <meta name="apple-mobile-web-app-title" content="Altera">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <!-- Chrome/Safari theme color placeholder overridden at runtime by the app -->
+  <!-- Chrome/Safari theme color used for loading screen, overridden at runtime by the app -->
   <meta name="theme-color" content="#1F1D49">
-
-  <!-- Start SmartBanner configuration -->
-  <meta name="smartbanner:title" content="Altera App">
-  <meta name="smartbanner:author" content="Altera Sp z o.o.">
-  <meta name="smartbanner:price" content="POBIERZ">
-  <meta name="smartbanner:price-suffix-google" content=" - w Google Play">
-  <meta name="smartbanner:icon-google" content="https://qa.altera.co/icons/Icon-192.png">
-  <meta name="smartbanner:button" content="Pokaż">
-  <meta name="smartbanner:button-url-google" content="https://qa.altera.co/altera-latest.apk">
-  <meta name="smartbanner:enabled-platforms" content="android">
-  <meta name="smartbanner:close-label" content="Zamknij">
-  <!-- Re-show banner after 15 days (15 * 24 * 60 * 60 seconds)-->
-  <meta name="smartbanner:hide-ttl" content="1296000">
-  <meta name="smartbanner:custom-design-modifier" content="ios">
-  <meta name="smartbanner:api" content="true">
-
-  <link rel="stylesheet" href="smartbanner.js/smartbanner.min.css">
-  <script src="smartbanner.js/smartbanner.min.js"></script>
-  <!-- End SmartBanner configuration -->
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
@@ -147,17 +128,31 @@
   </div>
 </div>
 
-<!-- Safari iOS 15 WebGL 2.0 fix (https://github.com/flutter/flutter/issues/89655) -->
-<!-- TODO(your_username): Remove when https://github.com/flutter/engine/pull/29038 will be merged to stable -->
+<!-- iOS 15 WebGL 2.0 fix (https://github.com/flutter/flutter/issues/89655) -->
+<!-- TODO(adrianjagielak): Remove when https://github.com/flutter/engine/pull/29038 will be merged to stable -->
 <script src="https://unpkg.com/platform@1.3.5/platform.js"></script>
 <script type="text/javascript">
-  if (platform.name.toLowerCase() == "safari" && parseInt(platform.version.split(".")[0]) >= 15) {
-   HTMLCanvasElement.prototype.getContext = function (orig) {
-     return function(type) {
-       return type !== "webgl2" ? orig.apply(this, arguments) : null
-     }
-   }(HTMLCanvasElement.prototype.getContext)
-  }
+function isIOS() {
+  return [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod'
+  ].includes(navigator.platform)
+  // iPad on iOS 13+ detection
+  || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
+
+if (isIOS() && parseInt(platform.os.version.split(".")[0]) >= 15) {
+  // iOS/iPadOS 15+
+  HTMLCanvasElement.prototype.getContext = function (orig) {
+    return function(type) {
+      return type !== "webgl2" ? orig.apply(this, arguments) : null
+    }
+  }(HTMLCanvasElement.prototype.getContext)
+}
 </script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
@@ -169,7 +164,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
 <script>
-    var serviceWorkerVersion = '3362878672';
+    var serviceWorkerVersion = '257670555';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
