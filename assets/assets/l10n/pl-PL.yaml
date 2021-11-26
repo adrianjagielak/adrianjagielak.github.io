@@ -63,15 +63,16 @@ newPasswordInput: 'Stwórz nowe hasło:'
 newPasswordInputRepeat: 'Powtórz nowe hasło:'
 newPasswordAction: Ustaw nowe hasło
 sentEmailConfirmationTitle: Udało się!
-sentEmailConfirmationDescriptionPreEmail: |-
+# Markdown enabled.
+sentEmailConfirmationDescription: |-
   Twoje konto zostało utworzone.
 
-  Na adres e-mail
-sentEmailConfirmationDescriptionPostEmail: ' wysłaliśmy maila z linkiem weryfikującym. Kliknij w niego, żeby przejść do pierwszego logowania.'
+  Na adres e-mail **{}** wysłaliśmy maila z linkiem weryfikującym. Kliknij w niego, żeby przejść do
+  pierwszego logowania.
 emailConfirmedTitle: Dziękujemy!
 emailConfirmedDescription: >-
   Twoje konto zostało zweryfikowane poprawnie. Zapraszamy do korzystania z
-  serwisu!
+  aplikacji!
 emailConfirmedAction: Zaloguj się po raz pierwszy
 fieldCannotBeEmpty: Pole nie może być puste.
 setupPromoTitle: Witamy w Altera
@@ -125,6 +126,7 @@ setupCompanySettingsPromoPoint3: >-
   Stwórz listę produktów i usług, które sprzedajesz aby szybciej wystawiać
   faktury.
 goToSettings: Przejdź do ustawień
+goToHome: Zakończ konfigurację
 welcomePageTitle: 'Dziękujemy, że wybrałeś naszą opiekę'
 welcomePageDescription: >-
   Od teraz nasza głowa w tym, by procesy księgowe dotyczące Twojej firmy toczyły
@@ -265,6 +267,7 @@ documentActionSend: Wyślij
 documentActionPaymentReminder: Przypomnij o płatności
 documentActionMarkAsPaid: Oznacz jako opłaconą
 documentActionDownload: Pobierz
+documentActionShare: Udostępnij
 selectAllDocuments: Zaznacz wszystko
 paymentReminderTitle: Przypomnij o płatności
 remindAllAction: Przypomnij wszystkim
@@ -626,7 +629,6 @@ saveAsIssued: Wystaw fakturę
 delete: Usuń
 sendInvoice: Wyślij fakturę
 searchInSettings: Wyszukaj w ustawieniach...
-settings: Ustawienia
 settingsAccount: Konto
 settingsCompany: Firma
 settingsInvoices: Faktury
@@ -662,6 +664,7 @@ oldPasswordInput: 'Stare hasło:'
 newPasswordSuccess: Nowe hasło ustawione pomyślnie.
 errorNewPasswordLimitExceeded: Przekroczono limit prób. Spróbuj ponownie później.
 errorNewPasswordGeneral: Nie udało się zmienić hasła. Spróbuj ponownie później.
+settingsSectionOtherSettings: Inne ustawienia
 paymentStatus: Status płatności
 invoiceStatus: Status faktury
 noInternet: Brak internetu!
@@ -758,7 +761,6 @@ invoicePage_paymentMethod: 'Płatność:'
 invoicePage_bankAccount: 'Rachunek bankowy:'
 invoicePage_invoiceForReceipt: 'Faktura do paragonu:'
 invoicePage_splitPayment: 'Mechanizm podzielonej płatności:'
-invoicePage_items_item_index: Lp.
 invoicePage_items_item_name: Nazwa
 invoicePage_items_item_pkwiu: PKWiU
 invoicePage_items_item_amount: Ilośc
@@ -981,15 +983,13 @@ newInvoiceRelatedCorrection: Korygująca
 newInvoiceRelatedSales: Sprzedaży do faktury pro forma
 newInvoiceRelatedExternal: Do faktury spoza systemu
 
-# The related invoice selection mode description is divided into 3 parts,
-# pre-button part, clickable new invoice link button, and post-button text.
-relatedDescriptionPreButton: >-
+# Markdown enabled
+relatedDescription: >-
   Jeżeli nie znajdziesz swojej faktury tutaj, może ona znajdować się w innym
   systemie.
 
-  Fakturę powiązaną możesz również wystawić za pomocą formularza
-relatedDescriptionButton: Nowa faktura
-relatedDescriptionPostButton: .
+
+  Fakturę powiązaną możesz również wystawić za pomocą formularza [Nowa faktura]().
 
 # 'X invoices for Y contractors' label divided into part 1: after number of
 # invoices and before number of customers and part 2: after number of
@@ -1076,7 +1076,6 @@ invoiceDeleteSuccess:
   other: Pomyślnie usunięto {} faktur.
 issuedInvoiceDeleteSuccess: Faktura “{}” została usunięta.
 fileDownloadSuccess: Rozpoczęto pobieranie pliku “{}”.
-# amogus
 filesDownloadSuccess:
   one: Rozpoczęto pobieranie pliku.
   other: Rozpoczęto pobieranie {} plików.
@@ -1095,6 +1094,7 @@ skip: Pomiń
 next: Dalej
 introduction: Wprowadzenie
 ok: Ok
+undo: Cofnij
 
 # Header
 header:
@@ -1108,116 +1108,334 @@ header:
     settings: Ustawienia
     goldAd: Księgowość
     help: Wsparcie
+  expandSidePanel: Pokaż boczny panel
+  collapseSidePanel: Ukryj boczny panel
 
 # Tutorials
 tutorials:
   tutorialBadge: SAMOUCZEK
   availableTutorialHint: Czy chciałbyś zobaczyć jak korzystać z tej strony?
   showTutorial: Pokaż
-  disableAllTutorials: Nie pokazuj więcej
-  disableAllTutorials_success: Aby ponownie włączyć samouczki przejdź do ustawień.
-  resetTutorialsSettings: Resetuj samouczki
-  resetTutorialsSettings_success: Zresetowano ustawienia samouczków.
   subtutorialStepper: '{} / {}'
+  showTutorialButton: Pokaż samouczek
   tutorials:
     newInvoice_invoiceFormat_title: Format numeracji faktury
+    # Markdown enabled.
     newInvoice_invoiceFormat: >-
-      Pellentesque at dolor sollicitudin, ullamcorper urna in, fermentum tellus. Pellentesque sed ante blandit, dapibus felis at, blandit enim. Vestibulum bibendum leo orci, ut condimentum dolor egestas quis. Nulla facilisi. Cras ex mauris, tincidunt et iaculis sit amet, dignissim eget mauris.
+      Wystawiając pierwszy raz fakturę w naszej aplikacji masz możliwość skorzystania z domyślnego
+      formatu numeracji faktury, np. Numer/Miesiąc/Rok. Po wystawieniu faktury Twoja faktura będzie
+      miała numer na przykład: 1/11/2021.
 
 
-      Phasellus eu iaculis orci, nec porta felis. Etiam id neque maximus, imperdiet magna a, semper nisi. Integer id condimentum quam. Fusce feugiat non nibh et blandit. Morbi lorem quam, scelerisque nec purus nec, sagittis mollis erat. Nulla facilisi. Nam consequat neque eget porttitor tristique.
+      Dajemy Tobie również możliwość numerowania faktury zgodnie z Własnym życzeniem.
+
+
+      W tym celu należy odwiedzić stronę “Ustawienia”:
+      [Numeracja faktur](https://app.altera.co/settings/invoices).
     newInvoice_nipNumber_title: Numer NIP
     newInvoice_nipNumber: >-
-      Donec lacinia elit purus, in tincidunt neque suscipit at. Quisque eu dui eu enim sollicitudin feugiat. Integer porttitor quam id odio aliquet, vitae porttitor dui aliquam. Phasellus urna justo, accumsan quis libero sed, lobortis tempus purus. Vestibulum viverra dolor ut dolor tempus, at aliquam ante tristique.
-
-
-      Aliquam cursus nibh dolor, luctus tristique sapien rutrum sit amet. Donec viverra ligula eu ipsum dapibus, a convallis velit sodales. Donec sed purus elementum, vestibulum mi at, mollis odio. Ut eget ex diam. Fusce non commodo dui. Vivamus at tempor sapien, sit amet imperdiet urna. Cras dapibus malesuada risus, sed tempus nulla egestas quis. Etiam laoreet faucibus gravida. In hac habitasse platea dictumst.
+      Po wpisaniu numeru NIP Nabywcy i kliknięciu przycisku “Wyszukaj i uzupełnij” nastąpi
+      automatyczne uzupełnienie wszystkich danych Nabywcy Twojej faktury. Nie musisz wypełniać
+      danych ręcznie.
     newInvoice_invoiceItemType_title: Typ produktu
     newInvoice_invoiceItemType: >-
-      Nunc quis blandit libero. Morbi venenatis sit amet ligula ac lacinia. Ut a nibh convallis, eleifend mi id, efficitur felis. In hac habitasse platea dictumst. In venenatis tincidunt purus sit amet ultrices.
-
-
-      Proin ornare ante vitae sagittis sodales. Integer sit amet ante sed nisi ultrices mollis. Duis in ex faucibus, lacinia dolor quis, euismod nibh. Aenean ultricies libero congue, maximus orci quis, interdum ex. Praesent vestibulum efficitur ullamcorper.
+      Trzeba ten element przegadać bo najprawdopodobniej nie jest ten toggle tutaj w ogóle potrzebny
     newInvoice_pkwiu_title: PKWiU/CN
     newInvoice_pkwiu: >-
-      Donec ultrices, libero sit amet bibendum egestas, dolor lacus dapibus arcu, vel vulputate tortor magna nec felis. Aenean vel erat in massa ornare gravida. Sed lacinia porta massa. Integer ut dictum sem. Morbi lobortis justo eu libero tincidunt, lacinia tempor sapien faucibus. Maecenas at lacus urna. Nulla lobortis sollicitudin diam ut pellentesque.
-
-
-      Vestibulum sed nulla ac leo molestie fermentum ut ac risus. Nullam consequat elit sed elit rutrum, in laoreet risus efficitur. Integer lacinia nunc eros, vitae scelerisque lacus feugiat ultrices. Suspendisse placerat, arcu fringilla feugiat rutrum, nulla magna tincidunt justo, id suscipit turpis tellus id nisi. Integer ac est lorem. Fusce ullamcorper laoreet metus sed sodales.
+      W polu “PKWiU/CN” możesz wpisać numer klasyfikacji produktu. Pamiętaj, że pole jest
+      opcjonalne.
     newInvoice_gtu_title: GTU
+    # Markdown enabled
     newInvoice_gtu: >-
-      Vivamus tincidunt lacinia quam vel pulvinar. Quisque vel nisl vel lorem tincidunt vulputate sit amet ut nibh. Aenean dignissim vel ipsum vitae sodales. Integer feugiat placerat lorem, id lacinia odio dictum quis. Mauris eu ante eget lacus luctus aliquet.
+      W polu “GTU” masz możliwość wpisania kodu grup towarów i usług. Pole dotyczy grup towarów
+      i usług dla dedykowanych branż. Upewnij się czy jesteś zobligowany do wpisania kodu GTU
+      na swojej fakturze.
 
 
-      Fusce laoreet, felis quis ornare placerat, sapien dolor venenatis neque, non sollicitudin nisi sem et erat. Ut convallis nisi sed tellus viverra, nec rhoncus lectus efficitur. Sed molestie diam et vulputate congue.
+      Lista symboli GTU dostępna jest na stronie:
+      [Lista symboli GTU - Altera: Nowy Wymiar Księgowości](https://altera.co/lista-symboli-gtu/).
     newInvoice_saveAsNewProduct_title: Zapisywanie nowego produktu
     newInvoice_saveAsNewProduct: >-
-      Curabitur et lacus vitae enim consequat imperdiet. Integer eget vestibulum tellus, non vestibulum augue. Mauris mattis, mauris ac cursus rhoncus, augue dui posuere mi, a lacinia magna nunc in massa.
-
-
-      Maecenas in fringilla velit. Morbi quis augue imperdiet, interdum enim eget, vulputate velit. Maecenas at nisl faucibus, vulputate elit quis, mattis tellus. Quisque ac est ultrices, pulvinar leo vitae, viverra urna. Cras luctus magna sapien, non lacinia justo porttitor sit amet.
+      Po zaznaczeniu pola wyboru “Zapisz nowy produkt”, podczas kolejnego wystawienia tej samej
+      faktury jej nazwa pojawi się na liście rozwijalnej w polu “Nazwa”. Po wybraniu tego produktu
+      wszystkie pola z sekcji “Pozycje faktury” zostaną automatycznie uzupełnione.
     newInvoice_splitPayment_title: Mechanizm podzielonej płatności
     newInvoice_splitPayment: >-
-      Suspendisse sagittis enim interdum molestie posuere. Nunc sit amet dui est. Duis fringilla ac ante nec blandit. Duis nec fermentum tortor. Sed consequat ullamcorper pretium. Suspendisse justo odio, volutpat consectetur rhoncus vitae, ornare vel enim. Sed finibus lorem sapien, vel sollicitudin neque lacinia eget.
+      Suspendisse sagittis enim interdum molestie posuere. Nunc sit amet dui est. Duis fringilla ac
+      ante nec blandit. Duis nec fermentum tortor. Sed consequat ullamcorper pretium. Suspendisse
+      justo odio, volutpat consectetur rhoncus vitae, ornare vel enim. Sed finibus lorem sapien, vel
+      sollicitudin neque lacinia eget.
 
 
-      Integer maximus quam eu erat laoreet, sed congue est vestibulum. Praesent viverra nisi purus, scelerisque porttitor orci aliquet vitae. Quisque tincidunt eget justo at commodo. Vivamus ullamcorper tincidunt libero, venenatis porta lorem eleifend a. Nulla dapibus suscipit convallis.
+      Integer maximus quam eu erat laoreet, sed congue est vestibulum. Praesent viverra nisi purus,
+      scelerisque porttitor orci aliquet vitae. Quisque tincidunt eget justo at commodo. Vivamus
+      ullamcorper tincidunt libero, venenatis porta lorem eleifend a. Nulla dapibus suscipit
+      convallis.
     newInvoice_dismiss: >-
-      Nam et nisl cursus, lacinia urna at, fringilla nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean pulvinar suscipit fringilla. Mauris non sodales dolor, vitae tincidunt sapien. Phasellus eleifend tellus et lectus vulputate elementum. Nunc tincidunt lectus erat, non congue risus posuere eget. Aliquam efficitur mattis neque ut cursus. Aenean ut ex quis velit fringilla mollis quis ac augue.
+      Nam et nisl cursus, lacinia urna at, fringilla nisl. Class aptent taciti sociosqu ad litora
+      torquent per conubia nostra, per inceptos himenaeos. Aenean pulvinar suscipit fringilla.
+      Mauris non sodales dolor, vitae tincidunt sapien. Phasellus eleifend tellus et lectus
+      vulputate elementum. Nunc tincidunt lectus erat, non congue risus posuere eget. Aliquam
+      efficitur mattis neque ut cursus. Aenean ut ex quis velit fringilla mollis quis ac augue.
 
 
-      Aliquam a scelerisque enim, venenatis efficitur tortor. Duis et est sem. Curabitur tellus lacus, porttitor et consequat non, hendrerit sed lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec egestas est, pulvinar ornare mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ipsum magna, vehicula sit amet risus dapibus, pulvinar commodo odio.
+      Aliquam a scelerisque enim, venenatis efficitur tortor. Duis et est sem. Curabitur tellus
+      lacus, porttitor et consequat non, hendrerit sed lectus. Pellentesque habitant morbi tristique
+      senectus et netus et malesuada fames ac turpis egestas. Duis nec egestas est, pulvinar ornare
+      mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. In ipsum magna, vehicula sit
+      amet risus dapibus, pulvinar commodo odio.
     newInvoice_saveAsDraft: >-
-      Etiam vitae ullamcorper lorem. Duis mi mi, imperdiet semper lectus sed, vehicula dictum ipsum. Duis fermentum facilisis sapien ac consectetur. Praesent venenatis ultrices nisl vitae eleifend. Nullam ornare, metus vel iaculis vulputate, magna sapien blandit metus, venenatis fringilla sapien risus ac nibh.
+      Etiam vitae ullamcorper lorem. Duis mi mi, imperdiet semper lectus sed, vehicula dictum ipsum.
+      Duis fermentum facilisis sapien ac consectetur. Praesent venenatis ultrices nisl vitae
+      eleifend. Nullam ornare, metus vel iaculis vulputate, magna sapien blandit metus, venenatis
+      fringilla sapien risus ac nibh.
 
 
-      Cras tellus massa, tincidunt sit amet nibh eget, auctor hendrerit magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In posuere eget turpis ut vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla metus metus, finibus non molestie nec, ornare et lectus. Fusce vulputate eros eu egestas tincidunt. Ut eu finibus tellus.
+      Cras tellus massa, tincidunt sit amet nibh eget, auctor hendrerit magna. Vestibulum ante ipsum
+      primis in faucibus orci luctus et ultrices posuere cubilia curae; In posuere eget turpis ut
+      vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+      himenaeos. Nulla metus metus, finibus non molestie nec, ornare et lectus. Fusce vulputate eros
+      eu egestas tincidunt. Ut eu finibus tellus.
     newInvoice_saveAsIssued: >-
-      Nam condimentum fringilla tempor. Nunc imperdiet augue et nulla commodo ultricies. Praesent a orci ac arcu gravida bibendum nec vitae nibh. Sed at lectus consequat, sodales nisi ut, lacinia eros. Donec dapibus luctus placerat. Suspendisse vestibulum nulla sed urna hendrerit aliquet. Aenean convallis sem in urna volutpat, eget lacinia felis luctus. Proin tristique eros in lacus mollis ullamcorper. Mauris vel purus consectetur, posuere massa eleifend, vehicula velit.
+      Nam condimentum fringilla tempor. Nunc imperdiet augue et nulla commodo ultricies. Praesent a
+      orci ac arcu gravida bibendum nec vitae nibh. Sed at lectus consequat, sodales nisi ut,
+      lacinia eros. Donec dapibus luctus placerat. Suspendisse vestibulum nulla sed urna hendrerit
+      aliquet. Aenean convallis sem in urna volutpat, eget lacinia felis luctus. Proin tristique
+      eros in lacus mollis ullamcorper. Mauris vel purus consectetur, posuere massa eleifend,
+      vehicula velit.
 
 
-      Vestibulum sodales a ligula et viverra. Curabitur tempus erat turpis, sed vehicula massa varius et. In mollis arcu et volutpat dictum. Integer bibendum varius dui, varius tempus lacus malesuada at. Donec sed dignissim nisi. Duis dui ipsum, pharetra vitae dapibus a, gravida at purus.
+      Vestibulum sodales a ligula et viverra. Curabitur tempus erat turpis, sed vehicula massa
+      varius et. In mollis arcu et volutpat dictum. Integer bibendum varius dui, varius tempus lacus
+      malesuada at. Donec sed dignissim nisi. Duis dui ipsum, pharetra vitae dapibus a, gravida at
+      purus.
     settings_invoiceFormat_title: Format faktury
     settings_invoiceFormat: >-
       Właściwa numeracja faktur to kluczowy element prowadzenia dokumentacji Twojej firmy.
 
 
-      Skorzystaj z naszego szybkiego wprowadzenia, aby dowiedzieć się jak poprawnie sformatować fakturę.
+      Skorzystaj z naszego szybkiego wprowadzenia, aby dowiedzieć się jak poprawnie sformatować
+      fakturę.
     settings_invoiceFormat_sub1_title: Kontynuowanie numeracji z poprzedniego systemu
     settings_invoiceFormat_sub1: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis in sapien vel accumsan. Etiam eu dolor diam. Donec sit amet nibh suscipit, dignissim mauris eu, facilisis nunc. Ut maximus blandit nisl, vitae varius velit commodo nec.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis in sapien vel accumsan.
+      Etiam eu dolor diam. Donec sit amet nibh suscipit, dignissim mauris eu, facilisis nunc. Ut
+      maximus blandit nisl, vitae varius velit commodo nec.
 
 
-      Vivamus eget ex neque. Fusce eget euismod diam, vel semper magna. Phasellus vel lacinia quam. Nulla ac sem congue, convallis magna eget, molestie neque. Integer et tellus mauris. Pellentesque sollicitudin, ligula vitae scelerisque malesuada, arcu elit sollicitudin elit, et suscipit dolor justo non orci. Suspendisse dictum egestas dui, et ullamcorper tellus consequat vel. Sed efficitur enim magna, id iaculis tortor condimentum.
+      Vivamus eget ex neque. Fusce eget euismod diam, vel semper magna. Phasellus vel lacinia quam.
+      Nulla ac sem congue, convallis magna eget, molestie neque. Integer et tellus mauris.
+      Pellentesque sollicitudin, ligula vitae scelerisque malesuada, arcu elit sollicitudin elit, et
+      suscipit dolor justo non orci. Suspendisse dictum egestas dui, et ullamcorper tellus consequat
+      vel. Sed efficitur enim magna, id iaculis tortor condimentum.
     settings_invoiceFormat_sub2_title: Okres wystawiania faktur
     settings_invoiceFormat_sub2: >-
-      Suspendisse sagittis enim interdum molestie posuere. Nunc sit amet dui est. Duis fringilla ac ante nec blandit. Duis nec fermentum tortor. Sed consequat ullamcorper pretium. Suspendisse justo odio, volutpat consectetur rhoncus vitae, ornare vel enim. Sed finibus lorem sapien, vel sollicitudin neque lacinia eget.
+      Suspendisse sagittis enim interdum molestie posuere. Nunc sit amet dui est. Duis fringilla ac
+      ante nec blandit. Duis nec fermentum tortor. Sed consequat ullamcorper pretium. Suspendisse
+      justo odio, volutpat consectetur rhoncus vitae, ornare vel enim. Sed finibus lorem sapien, vel
+      sollicitudin neque lacinia eget.
 
 
-      Integer maximus quam eu erat laoreet, sed congue est vestibulum. Praesent viverra nisi purus, scelerisque porttitor orci aliquet vitae. Quisque tincidunt eget justo at commodo. Vivamus ullamcorper tincidunt libero, venenatis porta lorem eleifend a. Nulla dapibus suscipit convallis.
+      Integer maximus quam eu erat laoreet, sed congue est vestibulum. Praesent viverra nisi purus,
+      scelerisque porttitor orci aliquet vitae. Quisque tincidunt eget justo at commodo. Vivamus
+      ullamcorper tincidunt libero, venenatis porta lorem eleifend a. Nulla dapibus suscipit
+      convallis.
     settings_invoiceFormat_sub3_title: Ostatni numer faktury
     settings_invoiceFormat_sub3_1: >-
-      Curabitur et lacus vitae enim consequat imperdiet. Integer eget vestibulum tellus, non vestibulum augue. Mauris mattis, mauris ac cursus rhoncus, augue dui posuere mi, a lacinia magna nunc in massa.
+      Curabitur et lacus vitae enim consequat imperdiet. Integer eget vestibulum tellus, non
+      vestibulum augue. Mauris mattis, mauris ac cursus rhoncus, augue dui posuere mi, a lacinia
+      magna nunc in massa.
     settings_invoiceFormat_sub3_2: >-
-      Vivamus tincidunt lacinia quam vel pulvinar. Quisque vel nisl vel lorem tincidunt vulputate sit amet ut nibh. Aenean dignissim vel ipsum vitae sodales. Integer feugiat placerat lorem, id lacinia odio dictum quis. Mauris eu ante eget lacus luctus aliquet.
+      Vivamus tincidunt lacinia quam vel pulvinar. Quisque vel nisl vel lorem tincidunt vulputate
+      sit amet ut nibh. Aenean dignissim vel ipsum vitae sodales. Integer feugiat placerat lorem, id
+      lacinia odio dictum quis. Mauris eu ante eget lacus luctus aliquet.
 
 
-      Fusce laoreet, felis quis ornare placerat, sapien dolor venenatis neque, non sollicitudin nisi sem et erat. Ut convallis nisi sed tellus viverra, nec rhoncus lectus efficitur. Sed molestie diam et vulputate congue.
+      Fusce laoreet, felis quis ornare placerat, sapien dolor venenatis neque, non sollicitudin nisi
+      sem et erat. Ut convallis nisi sed tellus viverra, nec rhoncus lectus efficitur. Sed molestie
+      diam et vulputate congue.
     settings_invoiceFormat_sub4_title: Ustawienia formatu faktury
     settings_invoiceFormat_sub4: >-
-      Nam condimentum fringilla tempor. Nunc imperdiet augue et nulla commodo ultricies. Praesent a orci ac arcu gravida bibendum nec vitae nibh. Sed at lectus consequat, sodales nisi ut, lacinia eros. Donec dapibus luctus placerat. Suspendisse vestibulum nulla sed urna hendrerit aliquet. Aenean convallis sem in urna volutpat, eget lacinia felis luctus. Proin tristique eros in lacus mollis ullamcorper. Mauris vel purus consectetur, posuere massa eleifend, vehicula velit.
+      Nam condimentum fringilla tempor. Nunc imperdiet augue et nulla commodo ultricies. Praesent a
+      orci ac arcu gravida bibendum nec vitae nibh. Sed at lectus consequat, sodales nisi ut,
+      lacinia eros. Donec dapibus luctus placerat. Suspendisse vestibulum nulla sed urna hendrerit
+      aliquet. Aenean convallis sem in urna volutpat, eget lacinia felis luctus. Proin tristique
+      eros in lacus mollis ullamcorper. Mauris vel purus consectetur, posuere massa eleifend,
+      vehicula velit.
 
 
-      Vestibulum sodales a ligula et viverra. Curabitur tempus erat turpis, sed vehicula massa varius et. In mollis arcu et volutpat dictum. Integer bibendum varius dui, varius tempus lacus malesuada at. Donec sed dignissim nisi. Duis dui ipsum, pharetra vitae dapibus a, gravida at purus.
+      Vestibulum sodales a ligula et viverra. Curabitur tempus erat turpis, sed vehicula massa
+      varius et. In mollis arcu et volutpat dictum. Integer bibendum varius dui, varius tempus lacus
+      malesuada at. Donec sed dignissim nisi. Duis dui ipsum, pharetra vitae dapibus a, gravida at
+      purus.
 
 # Urls
 url:
   goldAd:
-    accounting: https://altera.co/wybierz-altera/
-    expenses: https://altera.co/wybierz-altera/koszty
-    files: https://altera.co/wybierz-altera/dokumenty
+    contactUs: https://altera.co/formularz/
 
+# Work-in-progress ad page visible for Gold users.
 wipAdPage:
   line1: Ten moduł niedługo będzie dostępny
-  line2: Stale rozwijamy naszą aplikację, która ma na celu maksymalnie ułatwić nam współpracę z naszymi klientami i zaoferować im narzędzia, które przyczynią się do rozwoju ich firmy.
+  line2: >-
+    Stale rozwijamy naszą aplikację, która ma na celu maksymalnie ułatwić nam współpracę z naszymi
+    klientami i zaoferować im narzędzia, które przyczynią się do rozwoju ich firmy.
   line3: Poinformujemy Cię, gdy tylko moduł będzie wdrożony.
+
+# "Gold-only module" ad page visible for Silver users.
+goldAdPage:
+  common:
+    youtubeVideoId: wR9rKZzx1Vc
+    # Markdown enabled.
+    subtitle: >-
+      Ten moduł jest dostępny **wyłącznie dla klientów** Altera. Chcesz mieć do niego dostęp?
+      Sprawdź, co oferujemy i **skontaktuj się z nami**, a nasi specjaliści przygotują dla Ciebie
+      indywidualną wycenę.
+    contactUsButton: Skontaktuj się z nami
+    bottomPromo1Title: Spółki z o. o.
+    # Markdown enabled.
+    bottomPromo1: >-
+      * Rejestracja nowych spółek
+
+      * Zgłoszenie do sądu i urzędów
+
+      * Dobór optymalnego modelu
+
+      * Przekształcenia
+    bottomPromo2Title: Księgowość i podatki
+    # Markdown enabled.
+    bottomPromo2: >-
+      * Pełna księgowość
+
+      * KPiR i ryczałt
+
+      * Bieżąca opieka podatkowa
+
+      * Reprezentacja przed US
+    bottomPromo3Title: Kadry i płace
+    # Markdown enabled.
+    bottomPromo3: >-
+      * Listy płac
+
+      * Akta osobowe
+
+      * Ubezpieczenia społeczne
+
+      * Reprezentacja przed ZUS
+  accounting:
+    title: Poznaj Nowy Wymiar Księgowości
+    reasonsTitle: >-
+      Skup się na biznesie i zapomnij o księgowości.
+
+      My zajmiemy się wszystkim!
+    # Special field with check_circle icon inserted at the start of every line.
+    reasons: >-
+      Nasi księgowi mają czas myśleć o Twojej firmie.
+
+      Dobierzemy najlepszą formę opodatkowania.
+
+      Przeniesiemy Twój biznes do cyfrowego świata.
+  expenses:
+    title: Moduł Koszty
+    reasonsTitle: Jak działa moduł koszty w Altera.app?
+    # Special field with check_circle icon inserted at the start of every line.
+    reasons: >-
+      Dodaj skan faktury od kontrahenta.
+
+      OCR odczytuje dane faktury.
+
+      Dane są automatycznie wgrane do Altera.app.
+
+      Nasz dział księgowy błyskawicznie księguje Twoje faktury.
+  files:
+    title: Moduł Dokumenty
+    reasonsTitle: Jak działa moduł dokumenty w Altera.app?
+    # Special field with check_circle icon inserted at the start of every line.
+    reasons: >-
+      Służy do płynnej wymiany dokumenty pomiędzy przedsiębiorcą a księgowym.
+
+      Masz wszystkie dokumenty księgowe w jednym miejscu, dostępne 24h.
+
+      Gwarancja bezpieczeństwa danych.
+
+      Możesz również przechowywać prywatne dokumenty, do których nie mamy wglądu.
+  payments:
+    title: Moduł Płatności
+    reasonsTitle: Jak działa moduł płatności w Altera.app?
+    # Special field with check_circle icon inserted at the start of every line.
+    reasons: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+      Ut auctor gravida tortor vitae viverra.
+
+      Vestibulum ac viverra sapien, sit amet accumsan neque.
+
+      Sed tincidunt efficitur lorem ut suscipit.
+
+# Payments page
+payments:
+  actions:
+    generatePayment: Generuj płatność
+    preview: Podgląd
+    download: Pobierz
+    markAsPaid: Oznacz jako opłaconą
+    delete: Usuń
+    backToExpenses: Cofnij do kosztów
+  columns:
+    paymentNumber: Numer faktury
+    sellerName: Sprzedawca
+    addingDate: Data dodania
+    issueDate: Data wystawienia
+    dueDate: Termin płatności
+    grossPrice: Kwota do zapłaty
+    status: Status
+  paymentsListIsEmpty: Brak płatności do wyświetlenia
+  title: Płatności
+  tabs:
+    # The number of pixels that the text takes on a tab with added a single pixel
+    # just to be sure it wont work on some weird scaling settings. Picked using
+    # trials and errors method.
+    unpaid: Gotowe do płatności
+    unpaidWidth: 176.0
+    paid: Zapłacone
+    paidWidth: 120.0
+  generatePaymentButton: Generuj płatność
+
+# Miscellaneous
+misc:
+  updateIsAvailabe:
+    message: Dostępna jest nowsza wersja aplikacji.
+    button: Kliknij aby odświeżyć
+  isUsingMobileLayoutOnDesktop: >-
+    Obecnie oglądasz aplikację w wersji uproszczonej. Aby zobaczyć pełny interfejs powiększ okno
+    przeglądarki.
+  pressBackSecondTimeToCloseTheApp: Naciśnij przycisk wstecz ponownie aby wyjść z aplikacji.
+
+# Settings page
+settings:
+  title: Ustawienia
+  account:
+    otherSettings:
+      showTutorials:
+        title: Pokazuj samouczki w aplikacji
+        subtitle: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis in sapien vel
+          accumsan. Etiam eu dolor diam. Donec sit amet nibh suscipit, dignissim mauris eu,
+          facilisis nunc. Ut maximus blandit nisl, vitae varius velit commodo nec.
+        snacks:
+          enabled: Włączono samouczki w aplikacji.
+          disabled: Wyłączono samouczki w aplikacji.
+
+# "Update needed" page
+updateNeeded:
+  title: Nieaktualna wersja aplikacji!
+  message: Aby używać systemu Altera musisz zaktualizować aplikację.
+  goToPlayStore: Przejdź do Play Store
+  goToAppStore: Przejdź do App Store
+
+imagePicker:
+  defaultPhotoName: Zdjęcie {}.jpg
+  photoAccessDenied: Aby pozwolić na korzystanie z galerii włącz uprawienia aplikacji Altera w ustawieniach telefonu.
+  photoAccessRestricted: Aby pozwolić na korzystanie z galerii włącz uprawienia aplikacji Altera w ustawieniach telefonu.
+  cameraAccessDenied: Aby pozwolić na korzystanie z aparatu włącz uprawienia aplikacji Altera w ustawieniach telefonu.
+  cameraAccessRestricted: Aby pozwolić na korzystanie z aparatu włącz uprawienia aplikacji Altera w ustawieniach telefonu.
