@@ -1433,9 +1433,11 @@ updateNeeded:
   goToPlayStore: Przejdź do Play Store
   goToAppStore: Przejdź do App Store
 
+# Image picker/file picker
 imagePicker:
   defaultPhotoName: Zdjęcie {}.jpg
   photoAccessDenied: Aby pozwolić na korzystanie z galerii włącz uprawienia aplikacji Altera w ustawieniach telefonu.
   photoAccessRestricted: Aby pozwolić na korzystanie z galerii włącz uprawienia aplikacji Altera w ustawieniach telefonu.
   cameraAccessDenied: Aby pozwolić na korzystanie z aparatu włącz uprawienia aplikacji Altera w ustawieniach telefonu.
   cameraAccessRestricted: Aby pozwolić na korzystanie z aparatu włącz uprawienia aplikacji Altera w ustawieniach telefonu.
+  externalStorageDenied: Aby pozwolić na dostęp do plików włącz uprawienia aplikacji Altera w ustawieniach telefonu.
