@@ -31,7 +31,7 @@
     </li>
     <li>
       <key>GroupGotoHereDragging</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>BuildOrbitalTradeBeacon</key>
@@ -227,7 +227,7 @@
     </li>
     <li>
       <key>SwitchFlickingDesignation</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>MaxNumberOfPlayerSettlements</key>
