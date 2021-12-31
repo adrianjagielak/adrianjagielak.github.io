@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Multiplayer.Client.MpSettings">
+		<username>Karcia</username>
+		<chatRect>(640.0, 310.0, 640.0, 460.0)</chatRect>
+		<resolutionForChat>(1920.0, 1080.0)</resolutionForChat>
+		<serverSettings>
+			<autosaveInterval>2</autosaveInterval>
+			<direct>True</direct>
+		</serverSettings>
+	</ModSettings>
+</SettingsBlock>
