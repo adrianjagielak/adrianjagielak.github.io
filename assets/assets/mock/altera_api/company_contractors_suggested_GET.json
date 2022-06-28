@@ -1,0 +1,22 @@
+{
+  "result": "OK",
+  "data": {
+    "contractorDetails": {
+      "contractorId": 4527,
+      "name": "Apple Computer, Inc.",
+      "tinCountry": "PL",
+      "tin": "8958666780",
+      "streetName": "Rejsi Manor",
+      "houseNumber": "465",
+      "flatNumber": "42",
+      "city": "Menahga",
+      "postcode": "58-261",
+      "email": "spend@different.com",
+      "areaNumber": null,
+      "phone": "337507196",
+      "contractorRegion": null,
+      "contractorType": "COMPANY",
+      "defaultCurrency": "PLN"
+    }
+  }
+}

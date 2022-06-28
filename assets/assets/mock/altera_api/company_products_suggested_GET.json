@@ -1,0 +1,16 @@
+{
+  "result": "OK",
+  "data": {
+    "productDetails": {
+      "name": "Gips biały",
+      "unit": "kg",
+      "price": "92.59",
+      "vat": "23%",
+      "pkwiu": "5.1.9",
+      "gtu": "04",
+      "category": "Materiały budowlane",
+      "favourite": true,
+      "enabled": true
+    }
+  }
+}

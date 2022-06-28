@@ -1,0 +1,12 @@
+{
+  "result": "OK",
+  "data": {
+    "companyId": 11,
+    "accountingType": "KH",
+    "postingAccounts": "altera",
+    "eaiIntegrationEnabled": true,
+    "accountingDayOfMonth": 10,
+    "hrDayOfMonth": 10,
+    "payrollDayOfMonth": 10
+  }
+}

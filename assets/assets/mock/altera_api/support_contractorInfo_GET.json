@@ -1,0 +1,14 @@
+{
+  "result": "OK",
+  "data": {
+    "name": "Apple Computer, Inc.",
+    "nip": "8958666780",
+    "city": "Menahga",
+    "streetName": "Rejsi Manor",
+    "houseNumber": "465",
+    "flatNumber": "42",
+    "postCode": "58-261",
+    "country": "Polska",
+    "activeVat": false
+  }
+}

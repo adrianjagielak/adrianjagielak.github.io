@@ -1,0 +1,128 @@
+{
+  "result": "OK",
+  "data": {
+    "expenses": [
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 618,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-14T14:17:41.000Z",
+          "updateDate": "2022-02-14T14:17:51.000Z"
+        },
+        "fileName": "07o1ggpnxlx71.jpeg",
+        "fileExtension": "jpeg",
+        "fileSize": 20550172
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 642,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-28T12:40:03.000Z",
+          "updateDate": "2022-02-28T12:40:07.000Z"
+        },
+        "fileName": "1_10_2021_1.pdf",
+        "fileExtension": "pdf",
+        "fileSize": 62035
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 641,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-28T11:51:54.000Z",
+          "updateDate": "2022-02-28T11:51:57.000Z"
+        },
+        "fileName": "1_2022_wazny_3.pdf",
+        "fileExtension": "pdf",
+        "fileSize": 162585
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 640,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-28T11:27:41.000Z",
+          "updateDate": "2022-02-28T11:27:45.000Z"
+        },
+        "fileName": "1_2022_wazny.pdf",
+        "fileExtension": "pdf",
+        "fileSize": 162585
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 610,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-14T13:31:20.000Z",
+          "updateDate": "2022-02-14T13:31:22.000Z"
+        },
+        "fileName": "1.png",
+        "fileExtension": "png",
+        "fileSize": 27105
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 616,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-14T14:16:07.000Z",
+          "updateDate": "2022-02-14T14:16:10.000Z"
+        },
+        "fileName": "2.png",
+        "fileExtension": "png",
+        "fileSize": 27185
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 678,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-03-21T10:39:47.000Z",
+          "updateDate": "2022-03-21T10:39:51.000Z"
+        },
+        "fileName": "20220103_Allnet_Społka_z_o.o._202201S40015-65lCc3MmVZIMiKj.pdf",
+        "fileExtension": "pdf",
+        "fileSize": 171596
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 614,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-14T14:15:03.000Z",
+          "updateDate": "2022-02-14T14:15:06.000Z"
+        },
+        "fileName": "73p6LwB.png",
+        "fileExtension": "png",
+        "fileSize": 51122
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 611,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-14T14:14:05.000Z",
+          "updateDate": "2022-02-14T14:14:09.000Z"
+        },
+        "fileName": "altera_background.png",
+        "fileExtension": "png",
+        "fileSize": 91510
+      },
+      {
+        "modelType": "IMPORTED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 612,
+          "statusId": "IMPORTED",
+          "uploadDate": "2022-02-14T14:14:10.000Z",
+          "updateDate": "2022-02-14T14:14:12.000Z"
+        },
+        "fileName": "altera_background.png",
+        "fileExtension": "png",
+        "fileSize": 91510
+      }
+    ],
+    "pagesAmount": "3"
+  }
+}

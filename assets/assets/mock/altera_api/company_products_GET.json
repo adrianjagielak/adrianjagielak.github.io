@@ -1,0 +1,138 @@
+{
+  "result": "OK",
+  "data": {
+    "products": [
+      {
+        "productId": 7609,
+        "productName": "Able2",
+        "unit": "kg",
+        "price": "291.00",
+        "vatPerc": "0%",
+        "pkwiu": "8.7.4",
+        "gtu": "06",
+        "category": 15396,
+        "itemType": "PRODUCT",
+        "favourite": true,
+        "enabled": false
+      },
+      {
+        "productId": 7688,
+        "productName": "About nails thick atomic",
+        "unit": "mb",
+        "price": "29.00",
+        "vatPerc": "23%",
+        "pkwiu": "5.1.9",
+        "gtu": "04",
+        "category": 14739,
+        "itemType": "SERVICE",
+        "favourite": true,
+        "enabled": true
+      },
+      {
+        "productId": 7892,
+        "productName": "Above",
+        "unit": "m2",
+        "price": "236.00",
+        "vatPerc": "23%",
+        "pkwiu": "8.2.4",
+        "gtu": "08",
+        "category": 15276,
+        "itemType": "PRODUCT",
+        "favourite": true,
+        "enabled": false
+      },
+      {
+        "productId": 7909,
+        "productName": "Accident being",
+        "unit": "mb",
+        "price": "211.00",
+        "vatPerc": "23%",
+        "pkwiu": "6.2.7",
+        "gtu": "12",
+        "category": 15313,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      },
+      {
+        "productId": 7325,
+        "productName": "According rays according break activity",
+        "unit": "komplet",
+        "price": "288.00",
+        "vatPerc": "8%",
+        "pkwiu": "4.6.2",
+        "gtu": "11",
+        "category": 14742,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      },
+      {
+        "productId": 7638,
+        "productName": "Accurate made letter",
+        "unit": "m2",
+        "price": "98.00",
+        "vatPerc": "23%",
+        "pkwiu": "3.2.7",
+        "gtu": "4",
+        "category": 15465,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      },
+      {
+        "productId": 7988,
+        "productName": "Active eleven longer",
+        "unit": "kg",
+        "price": "169.00",
+        "vatPerc": "0%",
+        "pkwiu": "1.2.3",
+        "gtu": "5",
+        "category": 15389,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      },
+      {
+        "productId": 8026,
+        "productName": "Activity",
+        "unit": "op",
+        "price": "232.00",
+        "vatPerc": "23%",
+        "pkwiu": "2.5.4",
+        "gtu": "4",
+        "category": 15501,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      },
+      {
+        "productId": 7874,
+        "productName": "Actually square ancient breathe atomic",
+        "unit": "mb",
+        "price": "7.00",
+        "vatPerc": "zw",
+        "pkwiu": "1.7.2",
+        "gtu": "5",
+        "category": 15804,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      },
+      {
+        "productId": 7406,
+        "productName": "Addition stock listen worried",
+        "unit": "kg",
+        "price": "194.00",
+        "vatPerc": "23%",
+        "pkwiu": "3.6.5",
+        "gtu": "4",
+        "category": 14969,
+        "itemType": "PRODUCT",
+        "favourite": false,
+        "enabled": true
+      }
+    ],
+    "pagesAmount": "77"
+  }
+}

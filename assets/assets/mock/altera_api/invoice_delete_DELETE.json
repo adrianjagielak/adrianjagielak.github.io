@@ -1,0 +1,7 @@
+{
+  "result": "OK",
+  "data": {
+    "fullDelete": 0,
+    "softDelete": 1
+  }
+}

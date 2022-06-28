@@ -2,7 +2,7 @@ importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js");
 
 let firebaseConfig = firebaseConfig = {
-  todo: "replace-dev",
+  todo: "todo-replace-dev",
   apiKey: "AIzaSyDeBNstctX_kc1Me1bAlk-ZFRpmSMMaYHk",
   authDomain: "test123-5ce26.firebaseapp.com",
   projectId: "test123-5ce26",
@@ -15,7 +15,7 @@ let firebaseConfig = firebaseConfig = {
 switch (window.location.hostname) {
   case 'app.altera.co':
     firebaseConfig = {
-      todo: "replace-prod",
+      todo: "todo-replace-prod",
       apiKey: "AIzaSyDeBNstctX_kc1Me1bAlk-ZFRpmSMMaYHk",
       authDomain: "test123-5ce26.firebaseapp.com",
       projectId: "test123-5ce26",
@@ -27,7 +27,7 @@ switch (window.location.hostname) {
     break;
   case 'uat.altera.co':
     firebaseConfig = {
-      todo: "replace-uat",
+      todo: "todo-replace-uat",
       apiKey: "AIzaSyDeBNstctX_kc1Me1bAlk-ZFRpmSMMaYHk",
       authDomain: "test123-5ce26.firebaseapp.com",
       projectId: "test123-5ce26",
@@ -39,7 +39,7 @@ switch (window.location.hostname) {
     break;
   case 'qa.altera.co':
     firebaseConfig = {
-      todo: "replace-qa",
+      todo: "todo-replace-qa",
       apiKey: "AIzaSyDeBNstctX_kc1Me1bAlk-ZFRpmSMMaYHk",
       authDomain: "test123-5ce26.firebaseapp.com",
       projectId: "test123-5ce26",

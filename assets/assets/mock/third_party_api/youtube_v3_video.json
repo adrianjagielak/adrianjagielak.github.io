@@ -1,0 +1,73 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "iwIru6NnFy00DkgjEa2LThxiH9Q",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "CVC4YLyywEFURHNXVbQJ_2IyrlM",
+      "id": "wR9rKZzx1Vc",
+      "snippet": {
+        "publishedAt": "2021-08-18T08:15:13Z",
+        "channelId": "UCa2pkGL5LLw5EWVsX-70wiA",
+        "title": "Poznaj Nowy Wymiar Księgowości - [Altera]",
+        "description": "🔸🔶 Poznaj Nowy Wymiar Księgowości 🔶🔸\n\nRozpoczynamy rewolucję na rynku usług księgowych i kadrowo-płacowych. Stawiamy na maksymalną optymalizację i automatyzację procesów księgowych, dzięki nowej technologii. Naszym celem jest wspomaganie rozwoju biznesu naszych klientów.\n\n✅ Księgowość spółek\n✅ Księgowość uproszczona\n✅ Obsługa kadrowo-płacowa\n\n----------------------------------------------\n\n🔸🔶 Pobierz BEZPŁATNEGO e-booka! 🔶🔸\n📥 Dobierz najlepszą formę prawną dla swojej firmy. 📥\nhttps://altera.co/ebook-wady-i-zalety-form-prawnych-dzialalnosci-gospodarczej/\n\n----------------------------------------------\n\n✅ Skontaktuj się z nami ✅\n➡️ Strona www: \nhttps://altera.co/\n➡️ Telefon: \n+48 730 700 978\n➡️ Mail: \nkontakt@altera.co \n\n✅ Nasze media społecznościowe ✅\n➡️ Strona www: https://altera.co/\n➡️ Facebook: https://www.facebook.com/Altera.co \n➡️ LinkedIn : https://www.linkedin.com/company/altera-nowy-wymiar-ksiegowosci \n➡️ YouTube: https://www.youtube.com/channel/UCa2pkGL5LLw5EWVsX-70wiA?view_as=subscriber \n➡️ Instagram: https://www.instagram.com/altera.co/ \n➡️ Twitter: https://twitter.com/__Altera__ \n➡️ Pinterest: www.pinterest.com/AlteraNowyWymiarKsiegowosci",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wR9rKZzx1Vc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wR9rKZzx1Vc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wR9rKZzx1Vc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wR9rKZzx1Vc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wR9rKZzx1Vc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Altera - Nowy Wymiar Księgowości",
+        "tags": [
+          "Altera",
+          "Księgowość",
+          "Pełna księgowość",
+          "Nowoczesna księgowość",
+          "Księgi handlowe",
+          "KPiR",
+          "Księgowość KPiR",
+          "Księga Przychodów i Rozchodów",
+          "Ryczałt",
+          "Automatyzacja księgowości",
+          "Obsługa kadrowo-płacowa",
+          "Kadry i płace",
+          "Usługi księgowe",
+          "Nowy wymiar księgowości",
+          "Biuro rachunkowe"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Poznaj Nowy Wymiar Księgowości - [Altera]",
+          "description": "🔸🔶 Poznaj Nowy Wymiar Księgowości 🔶🔸\n\nRozpoczynamy rewolucję na rynku usług księgowych i kadrowo-płacowych. Stawiamy na maksymalną optymalizację i automatyzację procesów księgowych, dzięki nowej technologii. Naszym celem jest wspomaganie rozwoju biznesu naszych klientów.\n\n✅ Księgowość spółek\n✅ Księgowość uproszczona\n✅ Obsługa kadrowo-płacowa\n\n----------------------------------------------\n\n🔸🔶 Pobierz BEZPŁATNEGO e-booka! 🔶🔸\n📥 Dobierz najlepszą formę prawną dla swojej firmy. 📥\nhttps://altera.co/ebook-wady-i-zalety-form-prawnych-dzialalnosci-gospodarczej/\n\n----------------------------------------------\n\n✅ Skontaktuj się z nami ✅\n➡️ Strona www: \nhttps://altera.co/\n➡️ Telefon: \n+48 730 700 978\n➡️ Mail: \nkontakt@altera.co \n\n✅ Nasze media społecznościowe ✅\n➡️ Strona www: https://altera.co/\n➡️ Facebook: https://www.facebook.com/Altera.co \n➡️ LinkedIn : https://www.linkedin.com/company/altera-nowy-wymiar-ksiegowosci \n➡️ YouTube: https://www.youtube.com/channel/UCa2pkGL5LLw5EWVsX-70wiA?view_as=subscriber \n➡️ Instagram: https://www.instagram.com/altera.co/ \n➡️ Twitter: https://twitter.com/__Altera__ \n➡️ Pinterest: www.pinterest.com/AlteraNowyWymiarKsiegowosci"
+        },
+        "defaultAudioLanguage": "pl"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

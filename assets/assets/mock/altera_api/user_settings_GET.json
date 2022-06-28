@@ -1,0 +1,127 @@
+{
+  "result": "OK",
+  "data": {
+    "userId": 1,
+    "userName": "Maciej",
+    "userSurname": "Nowak",
+    "email": "m.nowak@contoso.com",
+    "phone": "637 776 107",
+    "registrationStatus": "1",
+    "avatarUrl": "assets://mock/user_avatar_1.jpeg",
+    "recentlySelectedCompany": 11,
+    "companies": [
+      {
+        "companyId": 11,
+        "NIP": "1111111112",
+        "companyName": "Super Dzbany",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": "Szef Dzbanów"
+      },
+      {
+        "companyId": 23,
+        "NIP": "9671246106",
+        "companyName": "Blank Space Iwona Kowalska",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": null
+      },
+      {
+        "companyId": 76,
+        "NIP": "0",
+        "companyName": "Bardzo fajna firma",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": ""
+      },
+      {
+        "companyId": 133,
+        "NIP": "5558789991",
+        "companyName": "MeadWestvaco Corporation",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": "Tech-Lead"
+      },
+      {
+        "companyId": 1,
+        "NIP": "1234567890",
+        "companyName": "Firma z nazwą Sp. z o.o.",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": "Wsparcie"
+      },
+      {
+        "companyId": 20,
+        "NIP": "7010978165",
+        "companyName": "Altera sp. z o. o.",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": "Szef"
+      },
+      {
+        "companyId": 167,
+        "NIP": "3456421312",
+        "companyName": "Randomowa firma",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": null
+      },
+      {
+        "companyId": 173,
+        "NIP": "6666666667",
+        "companyName": "Piekielna firma",
+        "companyType": "SILVER",
+        "initialSetup": 3,
+        "position": null
+      },
+      {
+        "companyId": 186,
+        "NIP": "1212121221",
+        "companyName": "Hiper Firma",
+        "companyType": "SILVER",
+        "initialSetup": 3,
+        "position": "Administrator"
+      },
+      {
+        "companyId": 197,
+        "NIP": "6320052322",
+        "companyName": "Williamson, Jones and Wolff Group",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": "Łuksz"
+      },
+      {
+        "companyId": 4,
+        "NIP": "5542878782",
+        "companyName": "Firma Testowa SMEO Active",
+        "companyType": "GOLD",
+        "initialSetup": 3,
+        "position": null
+      },
+      {
+        "companyId": 282,
+        "NIP": "3211231211",
+        "companyName": "Randomowa firma 5",
+        "companyType": "SILVER",
+        "initialSetup": 3,
+        "position": "Administrator"
+      },
+      {
+        "companyId": 283,
+        "NIP": "1231231241",
+        "companyName": "Randomowa Firma 6",
+        "companyType": "SILVER",
+        "initialSetup": 3,
+        "position": "Administrator"
+      },
+      {
+        "companyId": 285,
+        "NIP": "1234423423",
+        "companyName": "Randomowa firma 7",
+        "companyType": "SILVER",
+        "initialSetup": 3,
+        "position": "Administrator"
+      }
+    ]
+  }
+}

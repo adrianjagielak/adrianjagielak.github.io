@@ -1,0 +1,30 @@
+{
+  "result": "OK",
+  "data": {
+    "modelType": "PROCESSED_EXPENSE",
+    "basicInformation": {
+      "invoiceId": 5067,
+      "invoiceType": "SALES",
+      "invoiceFormat": "FV %N/%M/%Y",
+      "invoiceNumber": "FV 3/7/2021",
+      "statusId": "SENT",
+      "isReceipt": false,
+      "isRelated": false,
+      "grossPrice": 11589.27,
+      "netPrice": 10610.31,
+      "currency": "PLN",
+      "exchangeRate": "1.000",
+      "exchangeRateDate": null,
+      "vatPLN": 978.96,
+      "issueDate": "2021-07-26T00:00:00.000Z",
+      "saleDate": "2021-07-26T00:00:00.000Z",
+      "uploadDate": "2022-03-24T14:26:04.000Z",
+      "relatedInvoicesIds": [],
+      "year": 2021,
+      "month": 7,
+      "invoiceNumberInPeriod": 3,
+      "priceTypeId": "NET",
+      "paymentGenerationStatus": "ACCEPTED"
+    }
+  }
+}

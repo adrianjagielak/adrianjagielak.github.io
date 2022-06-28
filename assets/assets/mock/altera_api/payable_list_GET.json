@@ -1,0 +1,87 @@
+{
+  "result": "OK",
+  "data": {
+    "expenses": [
+      {
+        "modelType": "PROCESSED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 5067,
+          "invoiceType": "SALES",
+          "invoiceFormat": "FV %N/%M/%Y",
+          "invoiceNumber": "FV 3/7/2021",
+          "statusId": "SENT",
+          "isReceipt": false,
+          "isRelated": false,
+          "grossPrice": 11589.27,
+          "netPrice": 10610.31,
+          "currency": "PLN",
+          "exchangeRate": "1.000",
+          "exchangeRateDate": null,
+          "vatPLN": 978.96,
+          "issueDate": "2021-07-26T00:00:00.000Z",
+          "saleDate": "2021-07-26T00:00:00.000Z",
+          "uploadDate": "2022-03-24T14:26:04.000Z",
+          "relatedInvoicesIds": [],
+          "year": 2021,
+          "month": 7,
+          "invoiceNumberInPeriod": 3,
+          "priceTypeId": "NET",
+          "paymentGenerationStatus": "ACCEPTED"
+        },
+        "contractor": {
+          "contractorId": 4537,
+          "taxIdentificationNumber": "2602024093",
+          "country": "PL",
+          "contractorName": "Toll Brothers Inc",
+          "contractorType": "COMPANY",
+          "contractorRegion": "POLAND",
+          "defaultCurrency": "PLN",
+          "city": "Rzozów",
+          "street": "Lawaz Point",
+          "houseNumber": "392",
+          "flatNumber": "355",
+          "postCode": "52-665",
+          "email": "body@map.com",
+          "phoneNumber": "320369952",
+          "areaNumber": null
+        },
+        "payments": {
+          "paymentMethod": "TRANSFER",
+          "dueDate": "2021-07-27T00:00:00.000Z",
+          "isSplitPayment": false,
+          "isPaid": false,
+          "paidAmount": "11589.27",
+          "paymentDate": "2022-03-01T00:00:00.000Z",
+          "bankAccountNumber": "98114020040000310274567331"
+        },
+        "additionalDetails": "String nodded shorter broken skin",
+        "correctionReason": null,
+        "costCenters": [
+          {
+            "tagId": 51,
+            "name": "Usługi IT",
+            "enabled": true,
+            "color": 4294924066
+          }
+        ],
+        "projects": [
+          {
+            "tagId": 1,
+            "name": "Marketing",
+            "enabled": true,
+            "color": 4286963618
+          },
+          {
+            "tagId": 2,
+            "name": "IT",
+            "enabled": false,
+            "color": 4294933887
+          }
+        ]
+      }
+    ],
+    "pagesAmount": "1",
+    "sumGross": "11589.27000",
+    "sumNet": "10610.31000"
+  }
+}

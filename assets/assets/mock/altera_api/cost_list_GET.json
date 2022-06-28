@@ -1,0 +1,213 @@
+{
+  "result": "OK",
+  "data": {
+    "expenses": [
+      {
+        "modelType": "PROCESSED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 5067,
+          "invoiceType": "SALES",
+          "invoiceFormat": "FV %N/%M/%Y",
+          "invoiceNumber": "FV 3/7/2021",
+          "statusId": "SENT",
+          "isReceipt": false,
+          "isRelated": false,
+          "grossPrice": 11589.27,
+          "netPrice": 10610.31,
+          "currency": "PLN",
+          "exchangeRate": "1.000",
+          "exchangeRateDate": null,
+          "vatPLN": 978.96,
+          "issueDate": "2021-07-26T00:00:00.000Z",
+          "saleDate": "2021-07-26T00:00:00.000Z",
+          "uploadDate": "2022-03-24T14:26:04.000Z",
+          "relatedInvoicesIds": [],
+          "year": 2021,
+          "month": 7,
+          "invoiceNumberInPeriod": 3,
+          "priceTypeId": "NET",
+          "paymentGenerationStatus": "ACCEPTED"
+        },
+        "contractor": {
+          "contractorId": 4537,
+          "taxIdentificationNumber": "2602024093",
+          "country": "PL",
+          "contractorName": "Toll Brothers Inc",
+          "contractorType": "COMPANY",
+          "contractorRegion": "POLAND",
+          "defaultCurrency": "PLN",
+          "city": "Rzozów",
+          "street": "Lawaz Point",
+          "houseNumber": "392",
+          "flatNumber": "355",
+          "postCode": "52-665",
+          "email": "body@map.com",
+          "phoneNumber": "320369952",
+          "areaNumber": null
+        },
+        "payments": {
+          "paymentMethod": "TRANSFER",
+          "dueDate": "2021-07-27T00:00:00.000Z",
+          "isSplitPayment": false,
+          "isPaid": false,
+          "paidAmount": "11589.27",
+          "paymentDate": "2022-03-01T00:00:00.000Z",
+          "bankAccountNumber": "98114020040000310274567331"
+        },
+        "additionalDetails": "String nodded shorter broken skin",
+        "correctionReason": null,
+        "costCenters": [
+          {
+            "tagId": 51,
+            "name": "Usługi IT",
+            "enabled": true,
+            "color": 4294924066
+          }
+        ],
+        "projects": [
+          {
+            "tagId": 1,
+            "name": "Marketing",
+            "enabled": true,
+            "color": 4286963618
+          },
+          {
+            "tagId": 2,
+            "name": "IT",
+            "enabled": false,
+            "color": 4294933887
+          }
+        ]
+      },
+      {
+        "modelType": "PROCESSED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 5069,
+          "invoiceType": "INTERIM",
+          "invoiceFormat": "ZAL %N %M/%Y",
+          "invoiceNumber": "ZAL 4 10/2021",
+          "statusId": "SENT",
+          "isReceipt": false,
+          "isRelated": false,
+          "grossPrice": 4068.17,
+          "netPrice": 3908.24,
+          "currency": "PLN",
+          "exchangeRate": "1.000",
+          "exchangeRateDate": null,
+          "vatPLN": 159.93,
+          "issueDate": "2021-10-05T00:00:00.000Z",
+          "saleDate": "2021-10-05T00:00:00.000Z",
+          "uploadDate": "2022-03-24T14:26:04.000Z",
+          "relatedInvoicesIds": [],
+          "year": 2021,
+          "month": 10,
+          "invoiceNumberInPeriod": 4,
+          "priceTypeId": "NET",
+          "paymentGenerationStatus": null
+        },
+        "contractor": {
+          "contractorId": 4537,
+          "taxIdentificationNumber": "2602024093",
+          "country": "PL",
+          "contractorName": "Toll Brothers Inc",
+          "contractorType": "COMPANY",
+          "contractorRegion": "POLAND",
+          "defaultCurrency": "PLN",
+          "city": "Rzozów",
+          "street": "Lawaz Point",
+          "houseNumber": "392",
+          "flatNumber": "355",
+          "postCode": "52-665",
+          "email": "body@map.com",
+          "phoneNumber": "320369952",
+          "areaNumber": null
+        },
+        "payments": {
+          "paymentMethod": "CARD",
+          "dueDate": "2021-11-04T00:00:00.000Z",
+          "isSplitPayment": false,
+          "isPaid": false,
+          "paidAmount": "0.00",
+          "paymentDate": null,
+          "bankAccountNumber": "98114020040000310274567331"
+        },
+        "additionalDetails": "Larger society jungle knew remember movement loose",
+        "correctionReason": null,
+        "costCenters": [
+          {
+            "tagId": 13,
+            "name": "test",
+            "enabled": true,
+            "color": 4294961979
+          }
+        ],
+        "projects": [
+          {
+            "tagId": 3,
+            "name": "new",
+            "enabled": true,
+            "color": 4281667055
+          }
+        ]
+      },
+      {
+        "modelType": "PROCESSED_EXPENSE",
+        "basicInformation": {
+          "invoiceId": 5066,
+          "invoiceType": "SALES",
+          "invoiceFormat": "%N-%M-%Y Ważny",
+          "invoiceNumber": "3-12-2021 Ważny",
+          "statusId": "SENT",
+          "isReceipt": false,
+          "isRelated": false,
+          "grossPrice": 8298.22,
+          "netPrice": 7126.26,
+          "currency": "PLN",
+          "exchangeRate": "1.000",
+          "exchangeRateDate": null,
+          "vatPLN": 1171.96,
+          "issueDate": "2021-12-30T00:00:00.000Z",
+          "saleDate": "2021-12-30T00:00:00.000Z",
+          "uploadDate": "2022-03-24T14:26:04.000Z",
+          "relatedInvoicesIds": [],
+          "year": 2021,
+          "month": 12,
+          "invoiceNumberInPeriod": 3,
+          "priceTypeId": "NET",
+          "paymentGenerationStatus": null
+        },
+        "contractor": {
+          "contractorId": 4537,
+          "taxIdentificationNumber": "2602024093",
+          "country": "PL",
+          "contractorName": "Toll Brothers Inc",
+          "contractorType": "COMPANY",
+          "contractorRegion": "POLAND",
+          "defaultCurrency": "PLN",
+          "city": "Rzozów",
+          "street": "Lawaz Point",
+          "houseNumber": "392",
+          "flatNumber": "355",
+          "postCode": "52-665",
+          "email": "body@map.com",
+          "phoneNumber": "320369952",
+          "areaNumber": null
+        },
+        "payments": {
+          "paymentMethod": "TRANSFER",
+          "dueDate": "2022-01-29T00:00:00.000Z",
+          "isSplitPayment": false,
+          "isPaid": true,
+          "paidAmount": "8298.22",
+          "paymentDate": "2022-02-14T00:00:00.000Z",
+          "bankAccountNumber": "98114020040000310274567331"
+        },
+        "additionalDetails": "Careful tomorrow report article similar sent wait bar gone after",
+        "correctionReason": null
+      }
+    ],
+    "pagesAmount": "1",
+    "sumGross": "23955.66000",
+    "sumNet": "21644.81000"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "result": "OK",
+  "data": {
+    "invoice": {
+      "modelType": "INVOICE",
+      "basicInformation": {
+        "invoiceId": 8,
+        "invoiceType": "INTERIM_FINAL",
+        "invoiceFormat": "%N/%Y",
+        "invoiceNumber": "1/2022",
+        "statusId": "SENT",
+        "isReceipt": false,
+        "isRelated": false,
+        "grossPrice": 0,
+        "netPrice": 0,
+        "currency": "PLN",
+        "exchangeRate": "1.000",
+        "exchangeRateDate": null,
+        "vatPLN": 0,
+        "issueDate": "2022-03-18T00:00:00.000Z",
+        "saleDate": "2022-03-18T00:00:00.000Z",
+        "uploadDate": "2022-03-24T14:26:04.000Z",
+        "relatedInvoicesIds": [
+          6
+        ],
+        "year": 2022,
+        "month": 3,
+        "invoiceNumberInPeriod": 1,
+        "priceTypeId": "NET",
+        "paymentGenerationStatus": null
+      },
+      "contractor": {
+        "contractorId": 3622,
+        "taxIdentificationNumber": "5542133266",
+        "country": "PL",
+        "contractorName": "\"panewex\" Piotr Braciszewski Tomasz Lankiewicz S.c.",
+        "contractorType": "COMPANY",
+        "contractorRegion": "POLAND",
+        "defaultCurrency": "PLN",
+        "city": "Bydgoszcz",
+        "street": "ul. Św. Floriana",
+        "houseNumber": "5-7/9A",
+        "flatNumber": "",
+        "postCode": "85-030",
+        "email": "",
+        "phoneNumber": "",
+        "areaNumber": null
+      },
+      "payments": {
+        "paymentMethod": "TRANSFER",
+        "dueDate": "2022-04-17T00:00:00.000Z",
+        "isSplitPayment": false,
+        "isPaid": false,
+        "paidAmount": "0.00",
+        "paymentDate": null,
+        "bankAccountNumber": "84114020040000370280569165"
+      },
+      "additionalDetails": null,
+      "correctionReason": null,
+      "invoicePosition": [],
+      "attachments": []
+    },
+    "defaults": {
+      "suggestedProducts": [
+        {
+          "productId": 12585,
+          "productName": "usługa IT"
+        },
+        {
+          "productId": 12586,
+          "productName": "usługa IT"
+        }
+      ],
+      "suggestedContractor": [
+        {
+          "contractorId": 5596,
+          "tinCountry": "PL",
+          "tin": "7010978165",
+          "name": "Altera sp. z o.o.",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 3622,
+          "tinCountry": "PL",
+          "tin": "5542133266",
+          "name": "\"PANEWEX\" PIOTR BRACISZEWSKI TOMASZ LANKIEWICZ S.C.",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 5365,
+          "tinCountry": "PL",
+          "tin": "0000000002",
+          "name": "Brutto",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 5544,
+          "tinCountry": "PL",
+          "tin": "1000055155",
+          "name": "Firma Usługowa IT",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 3623,
+          "tinCountry": "PL",
+          "tin": "5542878782",
+          "name": "JAKUB LANKIEWICZ",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 5364,
+          "tinCountry": "PL",
+          "tin": "0000000001",
+          "name": "Netto",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 5461,
+          "tinCountry": "PL",
+          "tin": "9662096245",
+          "name": "Pharmico Spółka Cywilna",
+          "contractorType": "COMPANY"
+        },
+        {
+          "contractorId": 3620,
+          "tinCountry": "PL",
+          "tin": "9670763934",
+          "name": "ZAKŁAD ELEKTROMECHANICZNY ELREM SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+          "contractorType": "COMPANY"
+        }
+      ],
+      "suggestedCategories": [
+        {
+          "categoryName": "IT"
+        },
+        {
+          "categoryName": ""
+        },
+        {
+          "categoryName": "msd"
+        }
+      ],
+      "vatPcs": [
+        {
+          "name": "23%",
+          "value": 0.23
+        },
+        {
+          "name": "8%",
+          "value": 0.08
+        },
+        {
+          "name": "5%",
+          "value": 0.05
+        },
+        {
+          "name": "0%",
+          "value": 0
+        },
+        {
+          "name": "zw",
+          "value": 0
+        },
+        {
+          "name": "np",
+          "value": 0
+        },
+        {
+          "name": "oo",
+          "value": 0
+        }
+      ]
+    },
+    "relatedInvoices": []
+  }
+}

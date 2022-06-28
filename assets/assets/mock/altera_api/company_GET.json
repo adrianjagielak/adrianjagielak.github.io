@@ -1,0 +1,248 @@
+{
+  "result": "OK",
+  "data": {
+    "companyId": 11,
+    "permissions": {
+      "sales": true,
+      "expenses": true,
+      "expenses_approveCost": true,
+      "payments": true,
+      "payments_generate": true,
+      "documents": true,
+      "contractors": true,
+      "finances": true,
+      "messages": true,
+      "settings_companySettings": true,
+      "settings_canManageUsers": true,
+      "settings_canManageProjects": true,
+      "settings_canManageCostCenters": true
+    },
+    "initialSetup": 3,
+    "basicInformation": {
+      "companyType": "GOLD",
+      "NIP": "1111111112",
+      "vatId": "",
+      "companyName": "Super Dzbany",
+      "addressStreet": "Lipowa",
+      "addressHouseNumber": "26",
+      "addressFlatNumber": "13",
+      "addressPostal": "86-005",
+      "addressCity": "Zielonka",
+      "addressCountry": "PL",
+      "contactPhone": null,
+      "contactEmail": "m.nowak@contoso.com",
+      "accountingType": "KPiR",
+      "activeVat": true
+    },
+    "defaultSettings": {
+      "invoiceType": "SALES",
+      "currency": "EUR",
+      "paymentMethod": "TRANSFER",
+      "paymentDeadline": "1m",
+      "companyLogo": "assets://mock/company_avatar_1.png",
+      "template": ""
+    },
+    "availableAccounts": [
+      {
+        "CompanyBankAccount_Id": 327,
+        "Company_Id": 11,
+        "CompanyBankAccountName": "mBanky",
+        "CompanyBankAccountNumber": "98 1140 2004 0000 3102 7456 7331",
+        "CompanyBankAccountCurrency": "PLN",
+        "CompanyBankAccountIsDefault": true,
+        "CompanyBankAccountShortName": "mBanky"
+      },
+      {
+        "CompanyBankAccount_Id": 834,
+        "Company_Id": 11,
+        "CompanyBankAccountName": "rachunek 4",
+        "CompanyBankAccountNumber": "11 1140 1231 2312 3123 1231 2312",
+        "CompanyBankAccountCurrency": "EUR",
+        "CompanyBankAccountIsDefault": true,
+        "CompanyBankAccountShortName": "rachunek 4"
+      },
+      {
+        "CompanyBankAccount_Id": 832,
+        "Company_Id": 11,
+        "CompanyBankAccountName": "rachunek 2",
+        "CompanyBankAccountNumber": "11 1234 1234 1231 2312 3123 1231",
+        "CompanyBankAccountCurrency": "PLN",
+        "CompanyBankAccountIsDefault": false,
+        "CompanyBankAccountShortName": "rachunek 2"
+      },
+      {
+        "CompanyBankAccount_Id": 833,
+        "Company_Id": 11,
+        "CompanyBankAccountName": "rachunek 3",
+        "CompanyBankAccountNumber": "11 1140 1029 3810 9283 0918 2309",
+        "CompanyBankAccountCurrency": "PLN",
+        "CompanyBankAccountIsDefault": false,
+        "CompanyBankAccountShortName": "rachunek 3"
+      }
+    ],
+    "invoiceNumbers": [
+      {
+        "companyInvoiceNumberFormatId": 1,
+        "Value": "FV %N/%M/%Y",
+        "format": "FV %N/%M/%Y",
+        "indexing": "M",
+        "invoiceType": "SALES"
+      },
+      {
+        "companyInvoiceNumberFormatId": 6,
+        "Value": "%N/%Y",
+        "format": "%N/%Y",
+        "indexing": "Y",
+        "invoiceType": "PRO_FORMA"
+      },
+      {
+        "companyInvoiceNumberFormatId": 43,
+        "Value": "ZAL %N %M/%Y",
+        "format": "ZAL %N %M/%Y",
+        "indexing": "M",
+        "invoiceType": "INTERIM"
+      },
+      {
+        "companyInvoiceNumberFormatId": 130,
+        "Value": "Roczna %N/%Y",
+        "format": "Roczna %N/%Y",
+        "indexing": "Y",
+        "invoiceType": "INTERIM_FINAL"
+      },
+      {
+        "companyInvoiceNumberFormatId": 179,
+        "Value": "KOR %N %M %Y",
+        "format": "KOR %N %M %Y",
+        "indexing": "M",
+        "invoiceType": "CORRECTION"
+      },
+      {
+        "companyInvoiceNumberFormatId": 1422,
+        "Value": "%Y/%M/%N",
+        "format": "%Y/%M/%N",
+        "indexing": "M",
+        "invoiceType": "SALES"
+      },
+      {
+        "companyInvoiceNumberFormatId": 1625,
+        "Value": "%N %M %Y",
+        "format": "%N %M %Y",
+        "indexing": "M",
+        "invoiceType": "SALES"
+      },
+      {
+        "companyInvoiceNumberFormatId": 1915,
+        "Value": "%N %M %Y/-",
+        "format": "%N %M %Y/-",
+        "indexing": "M",
+        "invoiceType": "CORRECTION"
+      }
+    ],
+    "costCenters": [
+      {
+        "tagId": 12,
+        "name": "Marketing",
+        "color": 4278228616,
+        "enabled": true
+      },
+      {
+        "tagId": 13,
+        "name": "test",
+        "color": 4294961979,
+        "enabled": true
+      },
+      {
+        "tagId": 50,
+        "name": "Materiały i towary",
+        "color": 4282339765,
+        "enabled": true
+      },
+      {
+        "tagId": 51,
+        "name": "Usługi IT",
+        "color": 4294924066,
+        "enabled": true
+      }
+    ],
+    "projects": [
+      {
+        "tagId": 1,
+        "name": "Marketing",
+        "color": 4286963618,
+        "enabled": true
+      },
+      {
+        "tagId": 2,
+        "name": "IT",
+        "color": 4294933887,
+        "enabled": false
+      },
+      {
+        "tagId": 3,
+        "name": "new",
+        "color": 4281667055,
+        "enabled": true
+      },
+      {
+        "tagId": 4,
+        "name": "new 2",
+        "color": 4281667055,
+        "enabled": true
+      },
+      {
+        "tagId": 5,
+        "name": "new3",
+        "color": 4284816155,
+        "enabled": true
+      },
+      {
+        "tagId": 9,
+        "name": "Testttt",
+        "color": 4281954268,
+        "enabled": true
+      },
+      {
+        "tagId": 10,
+        "name": "Nowy test",
+        "color": 4278430196,
+        "enabled": true
+      },
+      {
+        "tagId": 11,
+        "name": "Test 2",
+        "color": 4288423856,
+        "enabled": true
+      },
+      {
+        "tagId": 12,
+        "name": "Haha test 3",
+        "color": 4288423856,
+        "enabled": true
+      },
+      {
+        "tagId": 23,
+        "name": "Analfabeta",
+        "color": 4293467747,
+        "enabled": true
+      },
+      {
+        "tagId": 26,
+        "name": "Test odświeżania",
+        "color": 4280391411,
+        "enabled": true
+      },
+      {
+        "tagId": 27,
+        "name": "Test odświeżania 2",
+        "color": 4284513675,
+        "enabled": true
+      },
+      {
+        "tagId": 28,
+        "name": "Test odświeżania 3",
+        "color": 4280391411,
+        "enabled": true
+      }
+    ]
+  }
+}

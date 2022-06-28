@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "tagId": 1,
+      "name": "Marketing",
+      "color": 4286963618,
+      "enabled": true
+    },
+    {
+      "tagId": 2,
+      "name": "IT",
+      "color": 4294933887,
+      "enabled": false
+    },
+    {
+      "tagId": 3,
+      "name": "new",
+      "color": 4281667055,
+      "enabled": true
+    },
+    {
+      "tagId": 4,
+      "name": "new 2",
+      "color": 4281667055,
+      "enabled": true
+    },
+    {
+      "tagId": 5,
+      "name": "new3",
+      "color": 4284816155,
+      "enabled": true
+    },
+    {
+      "tagId": 9,
+      "name": "Testttt",
+      "color": 4281954268,
+      "enabled": true
+    },
+    {
+      "tagId": 10,
+      "name": "Nowy test",
+      "color": 4278430196,
+      "enabled": true
+    },
+    {
+      "tagId": 11,
+      "name": "Test 2",
+      "color": 4288423856,
+      "enabled": true
+    },
+    {
+      "tagId": 12,
+      "name": "Haha test 3",
+      "color": 4288423856,
+      "enabled": true
+    },
+    {
+      "tagId": 23,
+      "name": "Analfabeta",
+      "color": 4293467747,
+      "enabled": true
+    },
+    {
+      "tagId": 26,
+      "name": "Test odświeżania",
+      "color": 4280391411,
+      "enabled": true
+    },
+    {
+      "tagId": 27,
+      "name": "Test odświeżania 2",
+      "color": 4284513675,
+      "enabled": true
+    },
+    {
+      "tagId": 28,
+      "name": "Test odświeżania 3",
+      "color": 4280391411,
+      "enabled": true
+    }
+  ]
+}
